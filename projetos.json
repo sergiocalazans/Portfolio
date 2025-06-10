@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "categoria": "Profissional",
+        "titulo": "Manual PROGEPE",
+        "descricao": "Site do manual utilizado pela Pró-reitoria de Gestão de Pessoas do IFPR, que ajudei a desenvolver utilizando o WordPress.",
+        "site": "https://ifpr.edu.br/manuais/base-conhecimento/manual/",
+        "img": "./img/banners/manual-progepe.png"
+    },
+    {
+        "id": "2",
+        "categoria": "Pessoal",
+        "titulo": "Spotify",
+        "descricao": "Projeto de uma réplica do Front-end da plataforma de streaming de música Spotify.",
+        "site": "https://spotify-lake-theta.vercel.app/",
+        "img": "./img/banners/spotify.png"
+    },
+    {
+        "id": "3",
+        "categoria": "Pessoal",
+        "titulo": "React App",
+        "descricao": "Site para criar cards dos colaboradores de sua equipe ou empresa. O Projeto utiliza o framework React.",
+        "site": "https://react-app-vercel-eight.vercel.app/",
+        "img": "./img/banners/react-app.png"
+    },
+    {
+        "id": "4",
+        "categoria": "Pessoal",
+        "titulo": "Conversor de Moeda América Latina",
+        "descricao": "Site de conversor de moedas do Real (R$) para uma moeda latina-americana.",
+        "site": "https://conversor-de-moedas-america-latina.vercel.app/",
+        "img": "./img/banners/conversor-de-moedas.png"
+    },
+    {
+        "id": "5",
+        "categoria": "Academico",
+        "titulo": "Jornal Pomposo",
+        "descricao": "Portal de notícias sobre sustentabilidade, ecologia e meio ambiente. Projeto criado colaborativamente durante a disciplina 'Experiência Criativa: Navegando na Computação' na PUCPR",
+        "site": "https://github.com/Pedr0fsc/Plantinha-Pomposa-Web",
+        "img": "./img/banners/academico.jpg"
+    },
+    {
+        "id": "6",
+        "categoria": "Academico",
+        "titulo": "Plantinha Pomposa",
+        "descricao": "Aplicativo multimídia criado colaborativamente durante a disciplina 'Experiência Criativa: Navegando na Computação' na PUCPR, utilizando a IDE Processing com a linguagem de programação Java. O projeto é um quiz interativo sobre o tema Meio Ambiente.",
+        "site": "#",
+        "img": "./img/banners/plantinha-pomposa.png"
+    },
+    {
+        "id": "7",
+        "categoria": "Academico",
+        "titulo": "ESP32 Weather Station",
+        "descricao": "O projeto de uma estação meteorológica\ninteligente utilizando o microcontrolador ESP32, com o objetivo de monitorar as condições climáticas de Curitiba em\ntempo real. O sistema realiza a coleta, análise, exibição e envio de dados\nambientais, utilizando sensores específicos e atuadores. Criado na disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
+        "site": "https://github.com/Pedr0fsc/Esp32-Weather-Monitoring/tree/LDR_version",
+        "img": "./img/banners/esp32.jpg"
+    },
+    {
+        "id": "8",
+        "categoria": "Academico",
+        "titulo": "ESP32 Weather Station Wokwi",
+        "descricao": "Primeira versão da estação meteorológica inteligente, criado no simulador Wokwi. Projeto foi desenvolvido na disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
+        "site": "https://wokwi.com/projects/430791259189911553",
+        "img": "./img/banners/esp32-wokwi.png"
+    },
+    {
+        "id": "9",
+        "categoria": "Academico",
+        "titulo": "Entrevista sobre Inteligência Artificial",
+        "descricao": "Entrevista sobre Inteligência Artificial para um trabalho da disciplina de 'Filosofia' na PUCPR.",
+        "site": "#",
+        "img": "./img/banners/entrevista-filosofia.png"
+    },
+    {
+        "id": "10",
+        "categoria": "Academico",
+        "titulo": "Seminário de Sistemas Operacionais",
+        "descricao": "Vídeo para o seminário sobre Sistemas Operacionais da disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
+        "site": "#",
+        "img": "./img/banners/academico.jpg"
+    },
+    {
+        "id": "11",
+        "categoria": "Academico",
+        "titulo": "Jogo Tabela Verdade",
+        "descricao": "Jogo para testar conhecimento sobre Tabela Verdade. Desenvolvido na disciplina 'Resolução de Problemas com Lógica Matemática' na PUCPR.",
+        "site": "https://colab.research.google.com/drive/1e6qbv8HuAwkhRBu8WUOqOkJ1oQoN7Qg6",
+        "img": "./img/banners/jogo-tabela-verdade.png"
+    },
+    {
+        "id": "",
+        "categoria": "Academico",
+        "titulo": "Máquina de Bebidas",
+        "descricao": "Aplicação de uma máquina de bebidas criada em Python. Desenvolvido na disciplina 'Raciocínio Algorítmico' na PUCPR.",
+        "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico/blob/main/Projetos%20Colaborativos/M%C3%A1quina%20de%20bebidas/maquina-de-bebida.py",
+        "img": "./img/banners/maquina-de-bebidas.png"
+    },
+    {
+        "id": "13",
+        "categoria": "Academico",
+        "titulo": "Jokenpo",
+        "descricao": "Jogo Jokenpô criado em Python. Desenvolvido na disciplina 'Raciocínio Algorítmico' na PUCPR.",
+        "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico/blob/main/Projetos%20Colaborativos/Jokenp%C3%B4/Jokenp%C3%B4%20-%20Pedra%2C%20Papel%20ou%20Tesoura.py",
+        "img": "./img/banners/jokenpo.png"
+    },
+    {
+        "id": "14",
+        "categoria": "Academico",
+        "titulo": "Cake Star",
+        "descricao": "Jogo desenvolvido na IDE Construct.",
+        "site": "https://sergiocalazans.itch.io/cake-star",
+        "img": "./img/banners/cake-star.png"
+    }
+]
