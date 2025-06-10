@@ -102,13 +102,5 @@
         "descricao": "Jogo Jokenpô criado em Python. Desenvolvido na disciplina 'Raciocínio Algorítmico' na PUCPR.",
         "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico/blob/main/Projetos%20Colaborativos/Jokenp%C3%B4/Jokenp%C3%B4%20-%20Pedra%2C%20Papel%20ou%20Tesoura.py",
         "img": "./img/banners/jokenpo.png"
-    },
-    {
-        "id": "14",
-        "categoria": "Academico",
-        "titulo": "Cake Star",
-        "descricao": "Jogo desenvolvido na IDE Construct.",
-        "site": "https://sergiocalazans.itch.io/cake-star",
-        "img": "./img/banners/cake-star.png"
     }
 ]

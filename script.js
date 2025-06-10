@@ -13,6 +13,86 @@ function enviarMsg(event){
     window.open(url, '_blank');
 }
 
+// 1. Função para buscar o JSON local
+async function fetchProjetos() {
+  const res = await fetch('projetos.json');
+  if (!res.ok) throw new Error('Falha ao carregar projetos.json');
+  return res.json();
+}
 
+// 2. Mapear categoria para o id do container no HTML
+const mapaCategorias = {
+  "Profissional": "projetos-profissionais",
+  "Pessoal": "projetos-pessoais",
+  "Academico": "projetos-academicos"
+};
 
+// 3. Criar um card de projeto
+function criarCard(proj) {
+  const card = document.createElement('div');
+  card.className = 'projetos-card';
 
+  const link = document.createElement('a');
+  link.href = proj.site || '#';
+  link.target = '_blank';
+
+  const img = document.createElement('img');
+  img.src = proj.img;
+  img.alt = proj.titulo;
+  img.className = 'projetos-imagem';
+
+  link.appendChild(img);
+
+  const box = document.createElement('div');
+  box.className = 'caixa-textos-projetos';
+
+  const h3 = document.createElement('h3');
+  h3.className = 'info-projetos';
+  h3.textContent = proj.titulo;
+
+  const p = document.createElement('p');
+  p.className = 'p-projetos';
+  p.textContent = proj.descricao;
+
+  box.appendChild(h3);
+  box.appendChild(p);
+
+  card.appendChild(link);
+  card.appendChild(box);
+
+  return card;
+}
+
+// 4. Função principal: montar os projetos no DOM
+async function initProjetos() {
+  try {
+    const projetos = await fetchProjetos();
+
+    projetos.forEach(proj => {
+      const cat = proj.categoria;
+      const containerId = mapaCategorias[cat];
+      if (!containerId) return; // categoria não mapeada ignora
+
+      const containerSection = document.getElementById(containerId);
+      if (!containerSection) {
+        console.warn('Seção não encontrada:', containerId);
+        return;
+      }
+
+      // dentro de section, buscar o box com classe 'projetos-caixa'
+      const box = containerSection.querySelector('.projetos-caixa');
+      if (!box) {
+        console.warn('Container de cards não encontrado em', containerId);
+        return;
+      }
+
+      const card = criarCard(proj);
+      box.appendChild(card);
+    });
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+// 5. Iniciar ao carregar a página
+document.addEventListener('DOMContentLoaded', initProjetos);
