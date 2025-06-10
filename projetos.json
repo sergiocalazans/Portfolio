@@ -109,6 +109,14 @@
         "titulo": "Gerador de Senha",
         "descricao": "Site para senhas com classificação Fraca, Médio ou Forte.",
         "site": "https://gerador-de-senha-inky.vercel.app/",
-        "img": "./img/banners/cake-star.png"
+        "img": "./img/banners/gerador-de-senha.png"
+    },
+    {
+        "id": "15",
+        "categoria": "Pessoal",
+        "titulo": "Alura Books",
+        "descricao": "Site de e-commerce de livraria online de tecnologia.",
+        "site": "https://alura-books-theta-nine.vercel.app/",
+        "img": "./img/banners/alura-books.png"
     }
 ]
