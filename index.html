@@ -158,6 +158,19 @@
         <div class="projetos-caixa"></div>
     </section>
 
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarMsg(event)">
+            <div class="grupo-form">
+                <input class="campo-form" placeholder="Nome" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="4" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
 
     <script src="script.js"></script>
 </body>
