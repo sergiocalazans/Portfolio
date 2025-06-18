@@ -18,7 +18,7 @@
 /* 4. Importa as animações e efeitos especiais. */
 @import url('./css/animations.css');
 
-/* 5. Importa todos os estilos responsivos. DEVE SER O ÚLTIMO. */
+/* 5. Importa todos os estilos responsivos. */
 @import url('./css/responsive.css');
 
 /* ======================================================= */
