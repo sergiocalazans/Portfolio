@@ -1,0 +1,61 @@
+/* ======================================================= */
+/* ARQUIVO DE NAVEGAÇÃO - Barra de Navegação e Menu        */
+/* ======================================================= */
+
+/* Estilos para o contêiner principal da navegação (<nav>). */
+.navegacao {
+    position: fixed; /* Fixa a navegação no topo da tela, mesmo com a rolagem. */
+    top: 0; /* Alinha a navegação no topo. */
+    left: 0; /* Alinha a navegação à esquerda. */
+    background: var(--menu); /* Define a cor de fundo com transparência. */
+    width: 100%; /* Faz a navegação ocupar toda a largura da tela. */
+    z-index: 100; /* Garante que a navegação fique acima da maioria dos outros elementos. */
+    padding: 1.5rem; /* Adiciona preenchimento interno. */
+    display: flex; /* Habilita o Flexbox para alinhar os itens internos. */
+    justify-content: center; /* Centraliza os itens da navegação horizontalmente (padrão desktop). */
+    align-items: center; /* Centraliza os itens da navegação verticalmente. */
+}
+
+/* Estilos para a lista de links do menu (<ul>). */
+.menu {
+    display: flex; /* Organiza os itens do menu em linha. */
+    justify-content: center; /* Centraliza os itens do menu. */
+    list-style: none; /* Remove os marcadores de lista (bolinhas). */
+    gap: 2rem; /* Adiciona um espaçamento de 2rem entre cada item do menu. */
+}
+
+/* Esconde o logo/título da navegação na versão desktop por padrão. */
+.nav-logo {
+    display: none;
+}
+
+/* Estilo para cada link individual do menu (<a>). */
+.menu-link {
+  text-decoration: none; /* Remove o sublinhado. */
+  color: var(--claro); /* Define a cor do texto. */
+  font-weight: 500; /* Define a espessura da fonte. */
+  position: relative; /* Necessário para o posicionamento do pseudo-elemento ::after. */
+  padding: 0.5rem 0; /* Adiciona preenchimento para aumentar a área de clique. */
+}
+
+/* Pseudo-elemento usado para criar a linha animada sob o link. */
+.menu-link::after {
+    content: ''; /* Conteúdo obrigatório para pseudo-elementos. */
+    height: 2px; /* Altura da linha. */
+    width: 0; /* Largura inicial da linha (escondida). */
+    position: absolute; /* Posiciona a linha em relação ao .menu-link. */
+    bottom: 0; /* Alinha a linha na base do link. */
+    left: 0; /* Alinha a linha à esquerda do link. */
+    background: linear-gradient(90deg, var(--primaria), var(--secundaria)); /* Fundo em gradiente. */
+    transition: width 0.5s ease; /* Anima a mudança da largura ao longo de 0.5s. */
+}
+
+/* Efeito hover para o link do menu. */
+.menu-link:hover::after {
+   width: 100%; /* Faz a linha se expandir para 100% da largura no hover. */
+}
+
+/* Botão do menu hambúrguer (escondido no desktop por padrão). */
+#btn-mobile {
+    display: none;
+}

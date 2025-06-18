@@ -1,0 +1,51 @@
+/* ======================================================= */
+/* ARQUIVO DE ANIMAÇÕES - Keyframes e Classes de Efeitos   */
+/* ======================================================= */
+
+/* Classe utilitária para aplicar um efeito de fade-in e subida. */
+.fade-in {
+    opacity: 0; /* Começa totalmente transparente. */
+    transform: translateY(20px); /* Começa 20px abaixo de sua posição final. */
+    animation: fadeInUp 1s forwards; /* Aplica a animação 'fadeInUp' com duração de 1s e mantém o estado final. */
+}
+
+/* Classes de atraso para a animação fade-in. */
+.fade-in.delay-1 { animation-delay: 0.5s; } /* Atraso de 0.5s. */
+.fade-in.delay-2 { animation-delay: 1s; }   /* Atraso de 1s. */
+
+/* Efeito de gradiente radial no fundo da página. */
+.efeitos-fundo {
+    position: fixed; /* Fixa o elemento na tela. */
+    top: 0; /* Posição no topo. */
+    left: 0; /* Posição à esquerda. */
+    width: 100%; /* Largura total. */
+    height: 100%; /* Altura total. */
+    z-index: -1; /* Coloca o elemento atrás de todo o conteúdo. */
+    opacity: 0.5; /* Deixa o efeito com 50% de opacidade. */
+    /* Cria dois gradientes radiais sobre um fundo sólido. */
+    background: 
+    radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%),
+    var(--maisEscuro);
+}
+
+/* Definição da animação de flutuação. */
+@keyframes flutuar {
+   /* No início e no fim da animação, a posição vertical é a original. */
+   0%, 100% {
+    transform: translateY(0);
+   } 
+   /* No meio da animação, o elemento é movido 20px para cima. */
+   50% {
+    transform: translateY(-20px);
+   }
+}
+
+/* Definição da animação de fade-in e subida. */
+@keyframes fadeInUp {
+    /* Estado final da animação. */
+    to {
+    opacity: 1; /* Totalmente visível. */
+    transform: translateY(0); /* Posição original. */
+    }
+}

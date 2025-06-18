@@ -1,0 +1,62 @@
+/* ======================================================= */
+/* ARQUIVO DE SEÇÕES - Layout das Áreas Principais         */
+/* ======================================================= */
+
+/* Estilos para a seção principal do cabeçalho (hero section). */
+.cabecalho {
+    min-height: 100vh; /* Garante que o cabeçalho ocupe pelo menos toda a altura da tela. */
+    display: flex; /* Habilita o Flexbox. */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente. */
+    align-items: center; /* Centraliza o conteúdo verticalmente. */
+    flex-direction: column; /* Empilha os itens do flexbox verticalmente. */
+}
+
+/* Estilo para o subtítulo dentro do cabeçalho. */
+.cabecalho-sub-titulo {
+    font-size: 1.5rem; /* Define o tamanho da fonte. */
+    color: var(--claro); /* Define a cor do texto. */
+}
+
+/* Estilos gerais para as seções 'Sobre' e 'Tecnologias'. */
+.sobre, .tecnologias {
+    padding: 6rem 2rem; /* Adiciona um grande preenchimento vertical e um menor horizontal. */
+}
+
+/* Estilos para a seção de tecnologias. */
+.tecnologias {
+    display: flex; /* Habilita o Flexbox. */
+    flex-direction: column; /* Empilha o título e a grade de tecnologias. */
+    gap: 1.5rem; /* Adiciona um espaço entre o título e a grade. */
+}
+
+/* Estilos para os títulos das seções 'Sobre' e 'Tecnologias'. */
+.sobre-titulo, .tecnologias-titulo {
+    font-size: 2rem; /* Define o tamanho da fonte. */
+    color: var(--claro); /* Define a cor do texto. */
+    text-align: center; /* Centraliza o texto. */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para separar do conteúdo. */
+}
+
+/* Estilos para a seção de projetos. */
+.projetos {
+    padding: 6rem 2rem; /* Adiciona preenchimento. */
+}
+
+/* Estilo para o título da seção de projetos. */
+.projetos-titulo {
+    text-align: center; /* Centraliza o texto. */
+    font-size: 1.5rem; /* Define o tamanho da fonte. */
+    margin-bottom: 50px; /* Adiciona uma margem inferior maior. */
+}
+
+/* Estilos para a seção de contato. */
+.contato {
+    padding: 6rem 2rem; /* Adiciona preenchimento. */
+}
+
+/* Estilo para o título da seção de contato. */
+.contato-titulo {
+    text-align: center; /* Centraliza o texto. */
+    font-size: 1.5rem; /* Define o tamanho da fonte. */
+    margin-bottom: 50px; /* Adiciona uma margem inferior maior. */
+}

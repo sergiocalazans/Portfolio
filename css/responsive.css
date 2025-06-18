@@ -1,0 +1,162 @@
+/* ======================================================= */
+/* ARQUIVO RESPONSIVO - Media Queries para Telas Menores   */
+/* ======================================================= */
+
+/* Estilos aplicados quando a largura da tela for 768 pixels ou menos (tablets e celulares). */
+@media (max-width: 768px) {
+    /* --- GERAL --- */
+    /* Reduz o tamanho do título principal. */
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    /* Reduz o preenchimento vertical e horizontal das seções. */
+    .sobre, .tecnologias, .projetos, .contato {
+        padding: 4rem 1.5rem;
+    }
+
+    /* --- ESTILOS DO MENU MOBILE --- */
+    /* Torna o botão hambúrguer visível. */
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        z-index: 110; /* Garante que o botão fique acima do menu que desliza. */
+    }
+
+    /* Estilo do ícone hambúrguer (as três linhas). */
+    .hamburguer {
+        border-top: 2px solid; /* Linha do meio. */
+        width: 20px;
+        display: block;
+        color: var(--claro);
+    }
+    /* As linhas de cima e de baixo são criadas com pseudo-elementos. */
+    .hamburguer::after, .hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor; /* Usa a mesma cor do elemento pai. */
+        margin-top: 5px; /* Espaçamento entre as linhas. */
+        transition: 0.3s; /* Anima as transformações. */
+        position: relative;
+    }
+
+    /* Exibe o logo e ajusta o layout da barra de navegação. */
+    .nav-logo {
+        display: block;
+        color: var(--claro);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .navegacao {
+        justify-content: space-between; /* Coloca o logo à esquerda e o botão à direita. */
+        padding: 1rem 1.5rem; /* Ajusta o preenchimento. */
+    }
+    
+    /* Estilos do menu quando está na versão mobile (escondido por padrão). */
+    .menu {
+        display: block; /* Muda de flex para block para empilhar os itens. */
+        position: fixed; /* Fica fixo na tela. */
+        top: 0;
+        left: 100%; /* Começa fora da tela, à direita. */
+        width: 100%;
+        height: 100vh; /* Ocupa a tela inteira. */
+        background: var(--menu); /* Fundo com transparência. */
+        backdrop-filter: blur(10px); /* Efeito de vidro. */
+        -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com Safari. */
+        flex-direction: column; /* Organiza os itens em coluna. */
+        padding-top: 8rem; /* Espaço no topo para não ficar sob a barra de navegação. */
+        gap: 2rem; /* Espaçamento entre os links. */
+        transition: left 0.4s ease-in-out; /* Anima o deslizamento do menu. */
+        z-index: 105; /* Fica abaixo do botão, mas acima do resto. */
+        visibility: hidden; /* Esconde o menu para acessibilidade. */
+    }
+    
+    /* Centraliza o texto dos links no menu aberto. */
+    .menu li {
+        text-align: center;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    /* Quando a navegação tem a classe 'active', o menu desliza para a tela. */
+    .navegacao.active .menu {
+        left: 0; /* Move para a posição inicial. */
+        visibility: visible; /* Torna visível. */
+    }
+
+    /* Animação do ícone hambúrguer para um 'X' quando o menu está ativo. */
+    .navegacao.active .hamburguer {
+        border-top-color: transparent; /* A linha do meio some. */
+    }
+    .navegacao.active .hamburguer::before {
+        transform: rotate(135deg); /* A linha de cima rotaciona. */
+    }
+    .navegacao.active .hamburguer::after {
+        transform: rotate(-135deg); /* A linha de baixo rotaciona. */
+        top: -7px; /* Ajusta a posição para formar o 'X' corretamente. */
+    }
+
+    /* Aumenta a fonte dos links no menu mobile para facilitar o toque. */
+    .menu-link {
+        font-size: 1.5rem;
+    }
+    /* Mantém o efeito de sublinhado no hover, mesmo no mobile. */
+    .menu-link:hover::after {
+        width: 100%; 
+    }
+    
+    /* --- CABEÇALHO --- */
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 1rem; 
+    }
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* --- SEÇÃO DE TECNOLOGIAS --- */
+    .tecnologias-itens {
+        grid-template-columns: repeat(2, 1fr); /* Altera o grid para 2 colunas. */
+        gap: 1rem;
+    }
+    .tecnologia-caixa {
+        padding: 1.5rem 0.5rem;
+    }
+
+    /* --- TÍTULOS DAS SEÇÕES --- */
+    .sobre-titulo, .tecnologias-titulo, .projetos-titulo, .contato-titulo {
+        font-size: 1.8rem;
+    }
+    .projetos-caixa {
+        gap: 1.5rem;
+    }
+    .formulario-contato {
+        padding: 1.5rem;
+    }
+}
+
+/* Estilos para telas muito pequenas (celulares em modo retrato). */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .cabecalho-sub-titulo {
+        font-size: 1rem;
+    }
+    .sobre, .tecnologias, .projetos, .contato {
+        padding: 3rem 1rem;
+    }
+    .sobre-caixa {
+        padding: 1.5rem;
+    }
+    .nav-logo {
+        font-size: 1.2rem;
+    }
+}

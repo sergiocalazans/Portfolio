@@ -1,0 +1,185 @@
+/* ======================================================= */
+/* ARQUIVO DE COMPONENTES - Cards, Formulários, Ícones     */
+/* ======================================================= */
+
+/* Estilo para o link de categoria de projeto. */
+.link-categoria {
+    text-decoration: none; /* Remove o sublinhado. */
+    color: var(--claro); /* Define a cor do texto. */
+}
+
+/* Estilos para o link de texto 'Clique para abrir ->' dentro do card do projeto. */
+.link-projeto {
+    display: inline-block; /* Permite que margin-top funcione e não ocupe a linha inteira. */
+    margin-top: 1rem; /* Adiciona um espaço acima do link. */
+    padding: 0.5rem 0; /* Aumenta a área de clique vertical. */
+    color: var(--secundaria); /* Usa a cor secundária do tema. */
+    font-weight: bold; /* Deixa o texto em negrito. */
+    text-decoration: none; /* Remove o sublinhado. */
+    transition: color 0.3s ease, transform 0.3s ease; /* Anima a mudança de cor e a transformação. */
+}
+
+/* Efeito hover para o link do projeto. */
+.link-projeto:hover {
+    color: var(--claro); /* Muda a cor do texto para a cor clara. */
+    text-decoration: underline; /* Adiciona um sublinhado no hover. */
+    transform: translateX(4px); /* Move o link sutilmente para a direita. */
+}
+
+/* Estilo para a foto de perfil. */
+.foto-perfil {
+    width: 200px; /* Largura da imagem. */
+    height: 200px; /* Altura da imagem. */
+    box-shadow: 0 0 20px var(--sombra); /* Adiciona uma sombra brilhante. */
+    border-radius: 50%; /* Torna a imagem perfeitamente redonda. */
+    border: 4px solid var(--vidro); /* Adiciona uma borda com efeito de vidro. */
+    animation: flutuar 5s ease-in-out infinite; /* Aplica a animação de flutuação. */
+}
+
+/* Caixa de texto da seção 'Sobre'. */
+.sobre-caixa {
+    padding: 2rem; /* Adiciona preenchimento interno. */
+    max-width: 600px; /* Define uma largura máxima para a caixa. */
+    margin: 0 auto; /* Centraliza a caixa horizontalmente. */
+    border-radius: 16px; /* Arredonda as bordas. */
+    border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
+    backdrop-filter: blur(10px); /* Aplica o efeito de desfoque no fundo (glassmorphism). */
+    background: var(--filtro); /* Adiciona um fundo sutil e translúcido. */
+}
+
+/* Parágrafo de texto dentro da caixa 'Sobre'. */
+.sobre-texto {
+    text-align: center; /* Centraliza o texto. */
+    font-size: 1rem; /* Define o tamanho da fonte. */
+}
+
+/* Contêiner para os itens de tecnologia. */
+.tecnologias-itens {
+    display: grid; /* Usa o layout de grade. */
+    grid-template-columns: repeat(7, 1fr); /* Cria 7 colunas de larguras iguais. */
+    gap: 1.5rem; /* Espaçamento entre os itens da grade. */
+    max-width: 1200px; /* Largura máxima da grade. */
+    margin: 0 auto; /* Centraliza a grade. */
+}
+
+/* Caixa para cada tecnologia individual. */
+.tecnologia-caixa {
+    padding: 2rem 1rem; /* Adiciona preenchimento. */
+    border-radius: 16px; /* Arredonda as bordas. */
+    border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo. */
+    background: var(--filtro); /* Fundo sutil. */
+    text-align: center; /* Centraliza o texto. */
+    display: flex; /* Usa Flexbox para alinhar o ícone e o texto. */
+    flex-direction: column; /* Empilha o ícone e o texto verticalmente. */
+    align-items: center; /* Centraliza-os horizontalmente. */
+    justify-content: center; /* Centraliza-os verticalmente. */
+    gap: 1rem; /* Espaço entre o ícone e o texto. */
+}
+
+/* Contêiner para os cards de projetos. */
+.projetos-caixa {
+    display: grid; /* Usa o layout de grade. */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grade responsiva: cria colunas de no mínimo 300px. */
+    gap: 2rem; /* Espaçamento entre os cards. */
+    max-width: 1200px; /* Largura máxima. */
+    margin: 0 auto; /* Centraliza. */
+}
+
+/* Estilo para cada card de projeto. */
+.projetos-card {
+    background: var(--filtro); /* Fundo sutil. */
+    border-radius: 16px; /* Bordas arredondadas. */
+    backdrop-filter: blur(5px); /* Efeito de desfoque. */
+    border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
+    overflow: hidden; /* Garante que a imagem não vaze para fora das bordas arredondadas. */
+    transition: all 0.5s ease; /* Anima todas as propriedades que mudarem (ex: no hover). */
+}
+
+/* Efeito hover para o card de projeto. */
+.projetos-card:hover {
+    box-shadow: 0 10px 20px var(--sombra); /* Adiciona uma sombra elevada. */
+    transform: translateY(-10px) scale(1.03); /* Move o card para cima e aumenta um pouco seu tamanho. */
+}
+
+/* Parágrafo de descrição dentro do card. */
+.p-projetos {
+    color: rgba(226, 232, 240, 0.8); /* Cor de texto levemente transparente. */
+    line-height: 1.25rem; /* Define a altura da linha para melhor legibilidade. */
+}
+
+/* Imagem dentro do card do projeto. */
+.projetos-imagem {
+    height: 200px; /* Altura fixa para a imagem. */
+    width: 100%; /* Largura total do card. */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer. */
+}
+
+/* Caixa de texto dentro do card do projeto. */
+.caixa-textos-projetos {
+    padding: 1.5rem; /* Adiciona preenchimento. */
+}
+
+/* Contêiner do formulário de contato. */
+.formulario-contato {
+    max-width: 600px; /* Largura máxima. */
+    margin: 0 auto; /* Centraliza. */
+    background: var(--filtro); /* Fundo sutil. */
+    backdrop-filter: blur(5px); /* Efeito de desfoque. */
+    padding: 2rem; /* Adiciona preenchimento. */
+    border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
+    border-radius: 16px; /* Bordas arredondadas. */
+}
+
+/* Campo de input/textarea do formulário. */
+.campo-form {
+    width: 100%; /* Ocupa toda a largura do contêiner. */
+    padding: 1rem; /* Adiciona preenchimento interno. */
+    background: var(--filtro); /* Fundo sutil. */
+    border-radius: 8px; /* Bordas arredondadas. */
+    color: var(--claro); /* Cor do texto digitado. */
+    border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
+    outline: none; /* Remove a borda de foco padrão do navegador. */
+}
+
+/* Efeito de foco para o campo do formulário. */
+.campo-form:focus {
+    border-color: var(--secundaria); /* Muda a cor da borda ao focar. */
+    box-shadow: 0 0 10px var(--sombra); /* Adiciona uma sombra brilhante ao focar. */
+}
+
+/* Grupo do formulário, usado para espaçamento. */
+.grupo-form {
+    margin-bottom: 1.5rem; /* Adiciona uma margem inferior para separar os campos. */
+}
+
+/* Botão de envio do formulário. */
+.botao-form {
+    color: var(--claro); /* Cor do texto. */
+    background: linear-gradient(45deg, var(--primaria), var(--secundaria)); /* Fundo em gradiente. */
+    padding: 1rem 2rem; /* Adiciona preenchimento. */
+    border: none; /* Remove a borda padrão. */
+    border-radius: 8px; /* Bordas arredondadas. */
+    cursor: pointer; /* Cursor de mãozinha. */
+    font-weight: bold; /* Texto em negrito. */
+    width: 100%; /* Ocupa toda a largura. */
+    transition: all 0.5s ease; /* Anima todas as propriedades. */
+}
+
+/* Efeito hover para o botão do formulário. */
+.botao-form:hover {
+    transform: translateY(-4px); /* Move o botão sutilmente para cima. */
+    box-shadow: 0 5px 15px var(--sombra); /* Adiciona uma sombra elevada. */
+}
+
+/* Estilo para os ícones de redes sociais (GitHub, LinkedIn). */
+.icons img {
+    width: 32px; /* Largura do ícone. */
+    margin: 10px; /* Espaçamento ao redor do ícone. */
+    transition: transform 0.3s; /* Anima a transformação (escala). */
+}
+
+/* Efeito hover para os ícones. */
+.icons img:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone no hover. */
+}
