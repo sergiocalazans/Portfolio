@@ -38,13 +38,18 @@ a {
     cursor: pointer;
 }
 
+/* --- ESTILOS DE NAVEGAÇÃO BASE (DESKTOP) --- */
 .navegacao {
     position: fixed;
     top: 0;
+    left: 0;
     background: var(--menu);
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
@@ -52,6 +57,11 @@ a {
     justify-content: center;
     list-style: none;
     gap: 2rem;
+}
+
+/* ATUALIZAÇÃO: Esconde o logo no desktop */
+.nav-logo {
+    display: none;
 }
 
 .menu-link {
@@ -77,6 +87,12 @@ a {
    width: 100%; 
 }
 
+/* --- BOTÃO HAMBÚRGUER (ESCONDIDO NO DESKTOP) --- */
+#btn-mobile {
+    display: none;
+}
+
+/* ... (restante do seu CSS até a seção de responsividade) ... */
 .cabecalho {
     min-height: 100vh;
     display: flex;
@@ -110,8 +126,11 @@ a {
 }
 
 .tecnologias-itens {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .sobre-titulo, .tecnologias-titulo {
@@ -121,7 +140,7 @@ a {
     margin-bottom: 20px ;
 }
 
-.sobre-caixa, .tecnologia-caixa {
+.sobre-caixa {
     padding: 2rem;
     max-width: 600px;
     margin: 0 auto;
@@ -131,16 +150,23 @@ a {
     background: var(--filtro);
 }
 
+.tecnologia-caixa {
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background: var(--filtro);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 .sobre-texto {
     text-align: center;
     font-size: 1rem;
-}
-
-.tecnologia-caixa {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .projetos {
@@ -159,7 +185,7 @@ a {
     background: var(--filtro);
     border-radius: 16px;
     backdrop-filter: blur(5px);
-    border: 1px solif var(--vidro);
+    border: 1px solid var(--vidro);
     overflow: hidden;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -229,7 +255,7 @@ a {
     cursor: pointer;
     font-weight: bold;
     width: 100%;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
 }
 
 .botao-form:hover {
@@ -277,9 +303,7 @@ a {
 }
 
 .fade-in.delay-1 { animation-delay: 0.5s; }
-
 .fade-in.delay-2 { animation-delay: 1s; }
-
 
 @keyframes fadeInUp {
     to {
@@ -295,4 +319,158 @@ a {
 }
 .icons:hover img {
     transform: scale(1.2);
+}
+
+
+/* ======================================================= */
+/*          RESPONSIVIDADE (ATUALIZADA 2.0)                */
+/* ======================================================= */
+
+@media (max-width: 768px) {
+    /* --- GERAL --- */
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sobre, .tecnologias, .projetos, .contato {
+        padding: 4rem 1.5rem;
+    }
+
+    /* --- ESTILOS DO MENU MOBILE --- */
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        z-index: 110;
+    }
+
+    .hamburguer {
+        border-top: 2px solid;
+        width: 20px;
+        display: block;
+        color: var(--claro);
+    }
+
+    .hamburguer::after, .hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+
+    /* ATUALIZAÇÃO: Exibe o logo e ajusta o layout da nav */
+    .nav-logo {
+        display: block;
+        color: var(--claro);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .navegacao {
+        justify-content: space-between; /* Logo à esquerda, botão à direita */
+        padding: 1rem 1.5rem;
+    }
+    
+    .menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100vh;
+        /* ATUALIZAÇÃO: Fundo com efeito de vidro */
+        background: var(--menu);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com Safari */
+        flex-direction: column;
+        padding-top: 8rem;
+        gap: 2rem;
+        transition: left 0.4s ease-in-out;
+        z-index: 105;
+        visibility: hidden;
+    }
+    
+    /* ATUALIZAÇÃO: Centraliza o texto dos links no menu aberto */
+    .menu li {
+        text-align: center;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .navegacao.active .menu {
+        left: 0;
+        visibility: visible;
+    }
+
+    .navegacao.active .hamburguer {
+        border-top-color: transparent;
+    }
+    .navegacao.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+    .navegacao.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    .menu-link {
+        font-size: 1.5rem;
+    }
+    .menu-link:hover::after {
+        width: 100%; 
+    }
+    
+    /* --- CABEÇALHO --- */
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 1rem; 
+    }
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* --- SEÇÃO DE TECNOLOGIAS --- */
+    .tecnologias-itens {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .tecnologia-caixa {
+        padding: 1.5rem 0.5rem;
+    }
+
+    /* --- TÍTULOS DAS SEÇÕES --- */
+    .sobre-titulo, .tecnologias-titulo, .projetos-titulo, .contato-titulo {
+        font-size: 1.8rem;
+    }
+    .projetos-caixa {
+        gap: 1.5rem;
+    }
+    .formulario-contato {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .cabecalho-sub-titulo {
+        font-size: 1rem;
+    }
+    .sobre, .tecnologias, .projetos, .contato {
+        padding: 3rem 1rem;
+    }
+    .sobre-caixa {
+        padding: 1.5rem;
+    }
+    .nav-logo {
+        font-size: 1.2rem;
+    }
 }

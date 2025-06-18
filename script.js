@@ -96,3 +96,41 @@ async function initProjetos() {
 
 // 5. Iniciar ao carregar a página
 document.addEventListener('DOMContentLoaded', initProjetos);
+
+// --- LÓGICA DO MENU HAMBÚRGUER ---
+const btnMobile = document.getElementById('btn-mobile');
+const nav = document.getElementById('navegacao');
+const menuLinks = document.querySelectorAll('.menu-link');
+const navLogo = document.querySelector('.nav-logo'); // Pega o novo logo
+
+function toggleMenu(event) {
+    if (event.type === 'touchstart') event.preventDefault();
+    
+    nav.classList.toggle('active');
+    const active = nav.classList.contains('active');
+    btnMobile.setAttribute('aria-expanded', active);
+    if (active) {
+        btnMobile.setAttribute('aria-label', 'Fechar Menu');
+    } else {
+        btnMobile.setAttribute('aria-label', 'Abrir Menu');
+    }
+}
+
+// Função para fechar o menu
+function closeMenu() {
+    if (nav.classList.contains('active')) {
+        nav.classList.remove('active');
+        btnMobile.setAttribute('aria-expanded', 'false');
+        btnMobile.setAttribute('aria-label', 'Abrir Menu');
+    }
+}
+
+// Adiciona eventos de abrir/fechar ao botão
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+
+// Adiciona eventos para fechar o menu ao clicar em um link ou no logo
+menuLinks.forEach(link => {
+    link.addEventListener('click', closeMenu);
+});
+navLogo.addEventListener('click', closeMenu);
