@@ -83,8 +83,8 @@
     "id": "11",
     "categoria": "Academico",
     "titulo": "Jogo Tabela Verdade",
-    "descricao": "Jogo para testar conhecimento sobre Tabela Verdade. Desenvolvido na disciplina 'Resolução de Problemas com Lógica Matemática' na PUCPR.",
-    "site": "https://colab.research.google.com/drive/1e6qbv8HuAwkhRBu8WUOqOkJ1oQoN7Qg6",
+    "descricao": "Jogo para testar conhecimentos sobre Tabela Verdade. Desenvolvido na disciplina 'Resolução de Problemas com Lógica Matemática' na PUCPR.",
+    "site": "https://github.com/sergiocalazans/jogo-tabela-verdade",
     "img": "./img/banners/jogo-tabela-verdade.png"
   },
   {
