@@ -51,7 +51,7 @@
     "id": "7",
     "categoria": "Academico",
     "titulo": "ESP32 Weather Station",
-    "descricao": "O projeto de uma estação meteorológica\ninteligente utilizando o microcontrolador ESP32, com o objetivo de monitorar as condições climáticas de Curitiba em\ntempo real. O sistema realiza a coleta, análise, exibição e envio de dados\nambientais, utilizando sensores específicos e atuadores. Criado na disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
+    "descricao": "O projeto de uma estação meteorológica\ninteligente utilizando o microcontrolador ESP32, com o objetivo de monitorar as condições climáticas de Curitiba em\ntempo real. Criado colaborativamente na disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
     "site": "https://github.com/Pedr0fsc/Esp32-Weather-Monitoring/tree/LDR_version",
     "img": "./img/banners/esp32.jpg"
   },
@@ -150,5 +150,21 @@
     "descricao": "Repositório do Github criado por mim para salvar atividades e arquivos da disciplina Raciocínio Algorítmico, cursada no 1º Período do curso de Bacharelado em Ciência da Computação em 2025. É focada em Fundamentos da linguagem Python.",
     "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico",
     "img": "./img/banners/raciocinio-algoritmico.png"
+  },
+  {
+    "id": "20",
+    "categoria": "Pessoal",
+    "titulo": "Sorteador de Número",
+    "descricao": "Site para sortear números. Criado com HTML, CSS e JS.",
+    "site": "https://sorteador-numeros-six.vercel.app/",
+    "img": "./img/banners/sorteador-numeros.png"
+  },
+  {
+    "id": "21",
+    "categoria": "Pessoal",
+    "titulo": "Formulário de Cadastro",
+    "descricao": "Site para cadastro de cliente que utiliza uma API para buscar o CEP inserido.",
+    "site": "https://sergiocalazans.github.io/js-consumindo-dados-api-main/",
+    "img": "./img/banners/formulario-cadastro.png"
   }
 ]
