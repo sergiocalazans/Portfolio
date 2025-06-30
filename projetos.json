@@ -150,13 +150,5 @@
     "descricao": "Repositório do Github criado por mim para salvar atividades e arquivos da disciplina Raciocínio Algorítmico, cursada no 1º Período do curso de Bacharelado em Ciência da Computação em 2025. É focada em Fundamentos da linguagem Python.",
     "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico",
     "img": "./img/banners/raciocinio-algoritmico.png"
-  },
-  {
-    "id": "20",
-    "categoria": "Academico",
-    "titulo": "Cake Star",
-    "descricao": "Jogo desenvolvido na IDE Construct. Criado colaborativamente na disciplina 'Experiência Criativa: Navegando na Computação' na PUCPR.",
-    "site": "https://sergiocalazans.itch.io/cake-star",
-    "img": "./img/banners/cake-star.png"
   }
 ]
