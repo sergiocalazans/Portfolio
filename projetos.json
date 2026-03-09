@@ -1,13 +1,5 @@
 [
   {
-    "id": "1",
-    "categoria": "Profissional",
-    "titulo": "Manual PROGEPE",
-    "descricao": "Site do manual utilizado pela Pró-reitoria de Gestão de Pessoas do IFPR, que ajudei a desenvolver utilizando o WordPress.",
-    "site": "https://ifpr.edu.br/manuais/base-conhecimento/manual/",
-    "img": "./img/banners/manual-progepe.png"
-  },
-  {
     "id": "2",
     "categoria": "Pessoal",
     "titulo": "Spotify",
