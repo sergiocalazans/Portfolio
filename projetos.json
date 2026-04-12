@@ -1,162 +1,218 @@
 [
   {
-    "id": "2",
-    "categoria": "Pessoal",
-    "titulo": "Spotify",
-    "descricao": "Projeto de uma réplica do Front-end da plataforma de streaming de música Spotify.",
-    "site": "https://spotify-lake-theta.vercel.app/",
-    "img": "./img/banners/spotify.png"
+    "id": 1,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Tabela Periódica Web",
+    "descricao": "Aplicação web que renderiza a Tabela Periódica dos Elementos.",
+    "link": "https://github.com/sergiocalazans/tabela-periodica",
+    "img": "tabela-periodica.png",
+    "arquivo": "./img/banners/tabela-periodica.png"
   },
   {
-    "id": "3",
-    "categoria": "Pessoal",
-    "titulo": "React App",
-    "descricao": "Site para criar cards dos colaboradores de sua equipe ou empresa. O Projeto utiliza o framework React.",
-    "site": "https://vercel.com/gunga16s-projects/react-app-organo",
-    "img": "./img/banners/react-app.png"
+    "id": 2,
+    "categoria": "Ciência de Dados",
+    "titulo": "Python para Ciência de Dados - Pandas",
+    "descricao": "Portfólio de Python aplicados à Ciência de Dados, com ênfase especial na biblioteca Pandas.",
+    "link": "https://github.com/sergiocalazans/python-data-science-pandas",
+    "img": "python-data-science-pandas.png",
+    "arquivo": "./img/banners/python-data-science-pandas.png"
   },
   {
-    "id": "4",
-    "categoria": "Pessoal",
-    "titulo": "Conversor de Moeda América Latina",
-    "descricao": "Site de conversor de moedas do Real (R$) para uma moeda latina-americana.",
-    "site": "https://conversor-de-moedas-america-latina.vercel.app/",
-    "img": "./img/banners/conversor-de-moedas.png"
+    "id": 3,
+    "categoria": "Ciência de Dados",
+    "titulo": "Python para Ciência de Dados - Numpy",
+    "descricao": "Portfólio de Python aplicados à Ciência de Dados, com ênfase especial na biblioteca NumPy.",
+    "link": "https://github.com/sergiocalazans/python-data-science-numpy",
+    "img": "python-data-science-numpy.png",
+    "arquivo": "./img/banners/python-data-science-numpy.png"
   },
   {
-    "id": "5",
-    "categoria": "Academico",
-    "titulo": "Jornal Pomposo",
-    "descricao": "Portal de notícias sobre sustentabilidade, ecologia e meio ambiente. Projeto criado colaborativamente durante a disciplina 'Experiência Criativa: Navegando na Computação' na PUCPR",
-    "site": "https://jornalpomposo-final.vercel.app/",
-    "img": "./img/banners/jornal-pomposo.png"
+    "id": 4,
+    "categoria": "Ciência de Dados",
+    "titulo": "Tech Sales Analytics",
+    "descricao": "Pipeline de Análise de Dados e ETL voltado para o setor de varejo de tecnologia.",
+    "link": "https://github.com/sergiocalazans/tech-sales-analytics",
+    "img": "tech-sales-analytics.png",
+    "arquivo": "./img/banners/tech-sales-analytics.png"
   },
   {
-    "id": "6",
-    "categoria": "Academico",
+    "id": 5,
+    "categoria": "Acadêmico",
+    "titulo": "Multi-Client Server ESP32",
+    "descricao": "Sistema de comunicação em rede com clientes ESP32 e Python utilizando os protocolos TCP e UDP.",
+    "link": "https://github.com/sergiocalazans/multi-client-server-esp32",
+    "img": "multi-client-server-esp32.png",
+    "arquivo": "./img/banners/multi-client-server-esp32.png"
+  },
+  {
+    "id": 6,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Calculadora Web",
+    "descricao": "Calculadora interativa desenvolvida com tecnologias web fundamentais (HTML5, CSS3 e JavaScript).",
+    "link": "https://github.com/sergiocalazans/calculadora-web",
+    "img": "calculadora-web.png",
+    "arquivo": "./img/banners/calculadora-web.png"
+  },
+  {
+    "id": 7,
+    "categoria": "Acadêmico",
+    "titulo": "Data Food Management System",
+    "descricao": "Sistema de gerenciamento e indexação de dados nutricionais desenvolvido em C.",
+    "link": "https://github.com/sergiocalazans/data-food-management-system",
+    "img": "data-food-system.png",
+    "arquivo": "./img/banners/data-food-system.png"
+  },
+  {
+    "id": 8,
+    "categoria": "Acadêmico",
+    "titulo": "Conversor de Temperatura",
+    "descricao": "Sistema de conversão de escalas térmicas (Celsius e Fahrenheit) desenvolvido em Java.",
+    "link": "https://github.com/sergiocalazans/conversor-temperatura-java",
+    "img": "conversor-temperatura.png",
+    "arquivo": "./img/banners/conversor-temperatura.png"
+  },
+  {
+    "id": 9,
+    "categoria": "Ciência de Dados",
+    "titulo": "Dashboard de Análise de Salários na Área de Dados",
+    "descricao": "Dashboard interativo para a análise de dados salariais na área de dados.",
+    "link": "https://dashboard-salario-area-de-dados.streamlit.app/",
+    "img": "dashboard-area-dados.png",
+    "arquivo": "./img/banners/dashboard-area-dados.png"
+  },
+  {
+    "id": 10,
+    "categoria": "Ciência de Dados",
+    "titulo": "Mini Projeto de Análise de Dados",
+    "descricao": "Projeto que realiza uma análise de dados abrangente de uma empresa, focando em suas finanças e operações. ",
+    "link": "https://github.com/sergiocalazans/mini-projeto-analise-dados",
+    "img": "mini-projeto-analise-de-dados.png",
+    "arquivo": "./img/banners/mini-projeto-analise-de-dados.png"
+  },
+  {
+    "id": 11,
+    "categoria": "Acadêmico",
+    "titulo": "Jogo da Tabela Verdade",
+    "descricao": "Jogo para testar conhecimentos sobre Tabela Verdade.",
+    "link": "https://github.com/sergiocalazans/jogo-tabela-verdade",
+    "img": "jogo-tabela-verdade.png",
+    "arquivo": "./img/banners/jogo-tabela-verdade.png"
+  },
+  {
+    "id": 12,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Dashboard Redes Sociais",
+    "descricao": "Projeto de Análise de Dados e Visualização Web que apresenta relatórios interativos sobre o uso de redes sociais no mundo e em uma comunidade escolar específica.",
+    "link": "https://github.com/sergiocalazans/dashboard-analise-de-dados-js",
+    "img": "dashboard-redes-sociais.png",
+    "arquivo": "./img/banners/dashboard-redes-sociais.png"
+  },
+  {
+    "id": 13,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Consumindo Dados de API",
+    "descricao": "Projeto desenvolvido no curso JavaScript: consumindo e tratando dados de uma API da plataforma Alura.",
+    "link": "https://github.com/sergiocalazans/js-consumindo-dados-api",
+    "img": "formulario-cadastro.png",
+    "arquivo": "./img/banners/formulario-cadastro.png"
+  },
+  {
+    "id": 14,
+    "categoria": "Acadêmico",
     "titulo": "Plantinha Pomposa",
-    "descricao": "Aplicativo multimídia criado colaborativamente durante a disciplina 'Experiência Criativa: Navegando na Computação' na PUCPR, utilizando a IDE Processing com a linguagem de programação Java. O projeto é um quiz interativo sobre o tema Meio Ambiente.",
-    "site": "https://github.com/sergiocalazans/plantinhapomposa",
-    "img": "./img/banners/plantinha-pomposa.png"
+    "descricao": "Aplicativo multimídia que aborda temáticas ecológicas e sustentáveis num quiz interativo.",
+    "link": "https://github.com/sergiocalazans/plantinha-pomposa",
+    "img": "plantinha-pomposa.jpg",
+    "arquivo": "./img/banners/plantinha-pomposa.png"
   },
   {
-    "id": "7",
-    "categoria": "Academico",
+    "id": 15,
+    "categoria": "Acadêmico",
+    "titulo": "Jornal Pomposo",
+    "descricao": "Website para divulgar conteúdos sobre meio ambiente, ecologia, consumo consciente e boas práticas sustentáveis.",
+    "link": "https://github.com/sergiocalazans/jornal-pomposo",
+    "img": "jornal-pomposo.png",
+    "arquivo": "./img/banners/jornal-pomposo.png"
+  },
+  {
+    "id": 16,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Conversor de Moeda - América Latina",
+    "descricao": "Conversor de Moeda do Real para uma moeda latina-americana.",
+    "link": "https://conversor-de-moedas-america-latina.vercel.app/",
+    "img": "conversor-de-moedas.png",
+    "arquivo": "./img/banners/conversor-de-moedas.png"
+  },
+  {
+    "id": 17,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Gerador de Senhas Web",
+    "descricao": "Gerador de senhas fracas, médias e fortes.",
+    "link": "https://gerador-de-senha-inky.vercel.app/",
+    "img": "gerador-de-senha.png",
+    "arquivo": "./img/banners/gerador-de-senha.png"
+  },
+  {
+    "id": 18,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Sorteador de Números Web",
+    "descricao": "Sistema de sortear números.",
+    "link": "https://sorteador-numeros-six.vercel.app/",
+    "img": "sorteador-numeros.png",
+    "arquivo": "./img/banners/sorteador-numeros.png"
+  },
+  {
+    "id": 19,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Organo App",
+    "descricao": "React App para criar cards dos colaboradores de sua equipe ou empresa.",
+    "link": "https://react-app-organo-6vmy6ixpx-gunga16s-projects.vercel.app/",
+    "img": "react-app.png",
+    "arquivo": "./img/banners/react-app.png"
+  },
+  {
+    "id": 20,
+    "categoria": "Desenvolvimento Web",
+    "titulo": "Alura Books",
+    "descricao": "Projeto desenvolvido no curso HTML e CSS: responsividade com mobile-first da plataforma Alura.",
+    "link": "https://github.com/sergiocalazans/alura-books",
+    "img": "alura-books.png",
+    "arquivo": "./img/banners/alura-books.png"
+  },
+  {
+    "id": 21,
+    "categoria": "Banco de Dados",
+    "titulo": "Sistema de Gestão Acadêmica",
+    "descricao": "Sistema de banco de dados relacional para gerenciamento de instituições de ensino superior.",
+    "link": "https://github.com/sergiocalazans/db-academic-system",
+    "img": "banco-de-dados.png",
+    "arquivo": "./img/banners/banco-de-dados.png"
+  },
+  {
+    "id": 22,
+    "categoria": "Profissional",
+    "titulo": "Portfólio de Projetos - Estágio em Automação e Análise de Dados",
+    "descricao": "Apresentação de slides com as atividades, projetos de inovação e implementações desenvolvidas durante o estágio em Automação e Análise de Dados no Tribunal de Justiça do Estado do Paraná (TJPR).",
+    "link": "https://canva.link/upj7t6fcyypnv1a",
+    "img": "portfolio-projetos-tjpr.png",
+    "arquivo": "./img/banners/portfolio-projetos-tjpr.png"
+  },
+  {
+    "id": 23,
+    "categoria": "Acadêmico",
     "titulo": "ESP32 Weather Station",
-    "descricao": "O projeto de uma estação meteorológica\ninteligente utilizando o microcontrolador ESP32, com o objetivo de monitorar as condições climáticas de Curitiba em\ntempo real. Criado colaborativamente na disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
-    "site": "https://github.com/Pedr0fsc/Esp32-Weather-Monitoring/tree/LDR_version",
-    "img": "./img/banners/esp32.jpg"
+    "descricao": "O projeto de uma estação meteorológica inteligente utilizando o microcontrolador ESP32, com o objetivo de monitorar as condições climáticas de Curitiba em tempo real. Criado no simulador Wokwi.",
+    "link": "https://wokwi.com/projects/430791259189911553",
+    "img": "esp32-wokwi.png",
+    "arquivo": "./img/banners/esp32-wokwi.png"
   },
   {
-    "id": "8",
-    "categoria": "Academico",
-    "titulo": "ESP32 Weather Station Wokwi",
-    "descricao": "Primeira versão da estação meteorológica inteligente, criado no simulador Wokwi. Projeto foi desenvolvido na disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
-    "site": "https://wokwi.com/projects/430791259189911553",
-    "img": "./img/banners/esp32-wokwi.png"
-  },
-  {
-    "id": "9",
-    "categoria": "Academico",
-    "titulo": "Entrevista sobre Inteligência Artificial",
-    "descricao": "Entrevista sobre Inteligência Artificial para um trabalho da disciplina de 'Filosofia' na PUCPR.",
-    "site": "https://youtu.be/hysAcJGLoyc",
-    "img": "./img/banners/entrevista-filosofia.png"
-  },
-  {
-    "id": "10",
-    "categoria": "Academico",
-    "titulo": "Seminário de Sistemas Operacionais",
-    "descricao": "Vídeo para o seminário sobre Sistemas Operacionais da disciplina 'Fundamentos de Sistemas Ciberfísicos' na PUCPR.",
-    "site": "https://www.youtube.com/watch?v=R0O_FFxYWaE",
-    "img": "./img/banners/seminario.png"
-  },
-  {
-    "id": "11",
-    "categoria": "Academico",
-    "titulo": "Jogo Tabela Verdade",
-    "descricao": "Jogo para testar conhecimentos sobre Tabela Verdade. Desenvolvido na disciplina 'Resolução de Problemas com Lógica Matemática' na PUCPR.",
-    "site": "https://github.com/sergiocalazans/jogo-tabela-verdade",
-    "img": "./img/banners/jogo-tabela-verdade.png"
-  },
-  {
-    "id": "",
-    "categoria": "Academico",
-    "titulo": "Máquina de Bebidas",
-    "descricao": "Aplicação de uma máquina de bebidas criada em Python. Desenvolvido na disciplina 'Raciocínio Algorítmico' na PUCPR.",
-    "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico/blob/main/Projetos%20Colaborativos/M%C3%A1quina%20de%20bebidas/maquina-de-bebida.py",
-    "img": "./img/banners/maquina-de-bebidas.png"
-  },
-  {
-    "id": "13",
-    "categoria": "Academico",
-    "titulo": "Jokenpo",
-    "descricao": "Jogo Jokenpô criado em Python. Desenvolvido na disciplina 'Raciocínio Algorítmico' na PUCPR.",
-    "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico/blob/main/Projetos%20Colaborativos/Jokenp%C3%B4/Jokenp%C3%B4%20-%20Pedra%2C%20Papel%20ou%20Tesoura.py",
-    "img": "./img/banners/jokenpo.png"
-  },
-  {
-    "id": "14",
-    "categoria": "Pessoal",
-    "titulo": "Gerador de Senha",
-    "descricao": "Site para senhas com classificação Fraca, Médio ou Forte.",
-    "site": "https://gerador-de-senha-inky.vercel.app/",
-    "img": "./img/banners/gerador-de-senha.png"
-  },
-  {
-    "id": "15",
-    "categoria": "Pessoal",
-    "titulo": "Meteora Ecommerce",
-    "descricao": "Planilha de dados das vendas, vendedores e produtos do fictício Meteora Ecommerce. Também, possui uma aba para pesquisas de produtos e vendas do dia. ",
-    "site": "https://onedrive.live.com/personal/5d0f86a465cd90a0/_layouts/15/doc.aspx?resid=7fc2718f-7c08-47b3-ac36-e4717ebb07d8&cid=5d0f86a465cd90a0&ct=1750373317121&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=bb30c2cc-e122-4cf5-8fbd-794660034f3c",
-    "img": "./img/banners/meteora.png"
-  },
-  {
-    "id": "16",
-    "categoria": "Pessoal",
-    "titulo": "Python Pandas",
-    "descricao": "Projeto no Google Colab. O foco em Data Science utilizando Python com a Biblioteca Pandas.",
-    "site": "https://colab.research.google.com/github/Gunga-16/Python_para_Data_Science_Pandas/blob/main/Python_para_Data_Science_Pandas.ipynb",
-    "img": "./img/banners/python-pandas.png"
-  },
-  {
-    "id": "17",
-    "categoria": "Pessoal",
-    "titulo": "Python Numpy",
-    "descricao": "Projeto no Google Colab. O foco em Data Science utilizando Python com a Biblioteca Numpy.",
-    "site": "https://colab.research.google.com/github/Gunga-16/Python_Data_Science_Numpy/blob/main/Python_Data_Science_Numpy.ipynb",
-    "img": "./img/banners/python-numpy.png"
-  },
-  {
-    "id": "18",
-    "categoria": "Pessoal",
-    "titulo": "Escola GPT",
-    "descricao": "Projeto no Google Colab. Chat Bot que utiliza a API do Google Gemini, focado em respostas para estudantes.",
-    "site": "https://colab.research.google.com/github/Gunga-16/Escola-Gpt/blob/main/EscolaGPT.ipynb",
-    "img": "./img/banners/escola-gpt.png"
-  },
-  {
-    "id": "19",
-    "categoria": "Pessoal",
-    "titulo": "Raciocínio Algorítmico",
-    "descricao": "Repositório do Github criado por mim para salvar atividades e arquivos da disciplina Raciocínio Algorítmico, cursada no 1º Período do curso de Bacharelado em Ciência da Computação em 2025. É focada em Fundamentos da linguagem Python.",
-    "site": "https://github.com/sergiocalazans/RaciocinioAlgoritmico",
-    "img": "./img/banners/raciocinio-algoritmico.png"
-  },
-  {
-    "id": "20",
-    "categoria": "Pessoal",
-    "titulo": "Sorteador de Número",
-    "descricao": "Site para sortear números. Criado com HTML, CSS e JS.",
-    "site": "https://sorteador-numeros-six.vercel.app/",
-    "img": "./img/banners/sorteador-numeros.png"
-  },
-  {
-    "id": "21",
-    "categoria": "Pessoal",
-    "titulo": "Formulário de Cadastro",
-    "descricao": "Site para cadastro de cliente que utiliza uma API para buscar o CEP inserido.",
-    "site": "https://sergiocalazans.github.io/js-consumindo-dados-api-main/",
-    "img": "./img/banners/formulario-cadastro.png"
+    "id": 24,
+    "categoria": "Ciência de Dados",
+    "titulo": "Portfólio Fundamentos Python",
+    "descricao": "Coleção de exercícios, scripts e pequenos projetos focados no domínio dos fundamentos da linguagem Python.",
+    "link": "https://github.com/sergiocalazans/portfolio-python-fundamentals",
+    "img": "portfolio-python.png",
+    "arquivo": "./img/banners/portfolio-python.png"
   }
 ]
