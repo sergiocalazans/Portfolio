@@ -27,6 +27,7 @@
     display: flex; /* Habilita o Flexbox. */
     flex-direction: column; /* Empilha o título e a grade de tecnologias. */
     gap: 1.5rem; /* Adiciona um espaço entre o título e a grade. */
+    align-items: center; /* Centraliza os itens horizontalmente. */
 }
 
 /* Estilos para os títulos das seções 'Sobre' e 'Tecnologias'. */
@@ -59,4 +60,22 @@
     text-align: center; /* Centraliza o texto. */
     font-size: 1.5rem; /* Define o tamanho da fonte. */
     margin-bottom: 50px; /* Adiciona uma margem inferior maior. */
+}
+
+/* ======================================================= */
+/* SUBTÍTULOS DA SEÇÃO DE TECNOLOGIAS                      */
+/* ======================================================= */
+
+.tecnologias-subtitulo {
+    font-size: 1.4rem;
+    color: var(--secundaria);
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.tecnologias-subtitulo:first-of-type {
+    margin-top: 0;
 }

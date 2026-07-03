@@ -59,14 +59,12 @@
 
 /* Contêiner para os itens de tecnologia. */
 .tecnologias-itens {
-  display: grid; /* Usa o layout de grade. */
-  grid-template-columns: repeat(
-    7,
-    1fr
-  ); /* Cria 7 colunas de larguras iguais. */
-  gap: 1.5rem; /* Espaçamento entre os itens da grade. */
-  max-width: 1200px; /* Largura máxima da grade. */
-  margin: 0 auto; /* Centraliza a grade. */
+    display: grid; /* Usa o layout de grade. */
+    grid-template-columns: repeat(auto-fit, minmax(130px, max-content)); /* Cria colunas responsivas com largura mínima de 130px. */
+    justify-content: center; /* Centraliza os itens horizontalmente. */
+    gap: 1.5rem; /* Espaçamento entre os itens da grade. */
+    max-width: 1200px; /* Largura máxima da grade. */
+    margin: 0 auto; /* Centraliza a grade. */
 }
 
 /* Caixa para cada tecnologia individual. */
@@ -196,4 +194,18 @@
 /* Efeito hover para os ícones. */
 .icons img:hover {
   transform: scale(1.2); /* Aumenta o tamanho do ícone no hover. */
+}
+
+/* ======================================================= */
+/* ÍCONES DE TECNOLOGIAS                                   */
+/* ======================================================= */
+
+.tecnologia-caixa img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.icone-claro {
+  filter: invert(1);
 }
