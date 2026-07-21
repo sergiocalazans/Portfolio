@@ -4,62 +4,88 @@
 
 /* Estilos para a seção principal do cabeçalho (hero section). */
 .cabecalho {
-    min-height: 100vh; /* Garante que o cabeçalho ocupe pelo menos toda a altura da tela. */
-    display: flex; /* Habilita o Flexbox. */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente. */
-    align-items: center; /* Centraliza o conteúdo verticalmente. */
-    flex-direction: column; /* Empilha os itens do flexbox verticalmente. */
+    min-height: 100vh;
+    /* Garante que o cabeçalho ocupe pelo menos toda a altura da tela. */
+    display: flex;
+    /* Habilita o Flexbox. */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente. */
+    align-items: center;
+    /* Centraliza o conteúdo verticalmente. */
+    flex-direction: column;
+    /* Empilha os itens do flexbox verticalmente. */
 }
 
 /* Estilo para o subtítulo dentro do cabeçalho. */
 .cabecalho-sub-titulo {
-    font-size: 1.5rem; /* Define o tamanho da fonte. */
-    color: var(--claro); /* Define a cor do texto. */
+    font-size: 1.5rem;
+    /* Define o tamanho da fonte. */
+    color: var(--claro);
+    /* Define a cor do texto. */
 }
 
 /* Estilos gerais para as seções 'Sobre' e 'Tecnologias'. */
-.sobre, .tecnologias {
-    padding: 6rem 2rem; /* Adiciona um grande preenchimento vertical e um menor horizontal. */
+.sobre,
+.tecnologias {
+    padding: 6rem 2rem;
+    /* Adiciona um grande preenchimento vertical e um menor horizontal. */
 }
 
 /* Estilos para a seção de tecnologias. */
 .tecnologias {
-    display: flex; /* Habilita o Flexbox. */
-    flex-direction: column; /* Empilha o título e a grade de tecnologias. */
-    gap: 1.5rem; /* Adiciona um espaço entre o título e a grade. */
-    align-items: center; /* Centraliza os itens horizontalmente. */
+    display: flex;
+    /* Habilita o Flexbox. */
+    flex-direction: column;
+    /* Empilha o título e a grade de tecnologias. */
+    gap: 1.5rem;
+    /* Adiciona um espaço entre o título e a grade. */
+    align-items: center;
+    /* Centraliza os itens horizontalmente. */
 }
 
 /* Estilos para os títulos das seções 'Sobre' e 'Tecnologias'. */
-.sobre-titulo, .tecnologias-titulo {
-    font-size: 2rem; /* Define o tamanho da fonte. */
-    color: var(--claro); /* Define a cor do texto. */
-    text-align: center; /* Centraliza o texto. */
-    margin-bottom: 20px; /* Adiciona uma margem inferior para separar do conteúdo. */
+.sobre-titulo,
+.tecnologias-titulo {
+    font-size: 2rem;
+    /* Define o tamanho da fonte. */
+    color: var(--claro);
+    /* Define a cor do texto. */
+    text-align: center;
+    /* Centraliza o texto. */
+    margin-bottom: 20px;
+    /* Adiciona uma margem inferior para separar do conteúdo. */
 }
 
 /* Estilos para a seção de projetos. */
 .projetos {
-    padding: 6rem 2rem; /* Adiciona preenchimento. */
+    padding: 6rem 2rem;
+    /* Adiciona preenchimento. */
 }
 
 /* Estilo para o título da seção de projetos. */
 .projetos-titulo {
-    text-align: center; /* Centraliza o texto. */
-    font-size: 1.5rem; /* Define o tamanho da fonte. */
-    margin-bottom: 50px; /* Adiciona uma margem inferior maior. */
+    text-align: center;
+    /* Centraliza o texto. */
+    font-size: 1.5rem;
+    /* Define o tamanho da fonte. */
+    margin-bottom: 50px;
+    /* Adiciona uma margem inferior maior. */
 }
 
 /* Estilos para a seção de contato. */
 .contato {
-    padding: 6rem 2rem; /* Adiciona preenchimento. */
+    padding: 6rem 2rem;
+    /* Adiciona preenchimento. */
 }
 
 /* Estilo para o título da seção de contato. */
 .contato-titulo {
-    text-align: center; /* Centraliza o texto. */
-    font-size: 1.5rem; /* Define o tamanho da fonte. */
-    margin-bottom: 50px; /* Adiciona uma margem inferior maior. */
+    text-align: center;
+    /* Centraliza o texto. */
+    font-size: 1.5rem;
+    /* Define o tamanho da fonte. */
+    margin-bottom: 50px;
+    /* Adiciona uma margem inferior maior. */
 }
 
 /* ======================================================= */
@@ -78,4 +104,59 @@
 
 .tecnologias-subtitulo:first-of-type {
     margin-top: 0;
+}
+
+/* ======================================================= */
+/* SOBRE - VÍDEO                                            */
+/* ======================================================= */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.video-frame {
+    width: 100%;
+    max-width: 900px;
+    padding: 12px;
+
+    border-radius: 24px;
+
+    background:
+        linear-gradient(135deg,
+            rgba(99, 102, 241, .25),
+            rgba(59, 130, 246, .15));
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, .35),
+        0 0 25px rgba(59, 130, 246, .15);
+
+    transition: .35s ease;
+}
+
+.video-frame:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, .45),
+        0 0 35px rgba(59, 130, 246, .30);
+}
+
+.video-frame iframe {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    border: none;
+
+    border-radius: 18px;
+
+    background: #000;
 }

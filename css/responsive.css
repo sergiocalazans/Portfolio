@@ -195,6 +195,18 @@
         width: 42px;
         height: 42px;
     }
+
+    .video-frame {
+
+        padding: 8px;
+
+        border-radius: 18px;
+    }
+
+    .video-frame iframe {
+
+        border-radius: 12px;
+    }
 }
 
 /* Estilos para telas muito pequenas (celulares em modo retrato). */
@@ -228,5 +240,17 @@
 
     .tecnologias-subtitulo {
         font-size: 1.1rem;
+    }
+
+    .video-frame {
+
+        padding: 8px;
+
+        border-radius: 18px;
+    }
+
+    .video-frame iframe {
+
+        border-radius: 12px;
     }
 }
