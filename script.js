@@ -597,23 +597,6 @@ function criarCardProjeto(projeto) {
   caixaTextos.appendChild(titulo);
   caixaTextos.appendChild(descricao);
 
-  if (
-    projeto.tecnologias.length > 0
-  ) {
-    const tecnologias =
-      document.createElement("p");
-
-    tecnologias.className =
-      "p-projetos";
-
-    tecnologias.textContent =
-      `Tecnologias: ${projeto.tecnologias.join(", ")
-      }`;
-
-    caixaTextos.appendChild(
-      tecnologias
-    );
-  }
 
   if (projeto.linkRepositorio) {
     const linkRepositorio =
