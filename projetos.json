@@ -1,7 +1,7 @@
 [
   {
     "id": "jogo-damas",
-    "categoria": "academico",
+    "categoria": "academic",
     "titulo": "Jogo de Damas",
     "descricao": "Jogo de Damas feito em Java com persistência de objetos, interface gráfica e conceitos avançados de Programação Orientada a Objetos.",
     "linkRepositorio": "https://github.com/Glaucia05/JogoDamasPOO",
@@ -18,7 +18,7 @@
   },
   {
     "id": "karaoke-letter",
-    "categoria": "academico",
+    "categoria": "academic",
     "titulo": "Karaoke Letter",
     "descricao": "Jogo rítmico de digitação desenvolvido com p5.js e p5.sound.",
     "linkRepositorio": "https://github.com/willian14551/karaoke-letter",
@@ -35,7 +35,7 @@
   },
   {
     "id": "esp32-weather-station",
-    "categoria": "academico",
+    "categoria": "academic",
     "titulo": "ESP32 Weather Station",
     "descricao": "Estação meteorológica inteligente utilizando o microcontrolador ESP32 para monitorar condições climáticas.",
     "linkRepositorio": "",
@@ -53,7 +53,7 @@
   },
   {
     "id": "repositorios-academicos",
-    "categoria": "academico",
+    "categoria": "academic",
     "titulo": "Repositórios Acadêmicos",
     "descricao": "Lista dos meus repositórios das disciplinas cursadas no Bacharelado em Ciência da Computação da PUCPR.",
     "linkRepositorio": "",
@@ -66,24 +66,6 @@
     "repositorio": "",
     "origem": "externo",
     "destaque": false
-  },
-  {
-    "id": "dashboard-salarios-dados",
-    "categoria": "analise-de-dados",
-    "titulo": "Dashboard de Análise de Salários na Área de Dados",
-    "descricao": "Dashboard interativo para análise de dados salariais na área de dados.",
-    "linkRepositorio": "",
-    "linkAplicacao": "https://dashboard-salario-area-de-dados.streamlit.app/",
-    "arquivo": "./img/banners/dashboard-area-dados.png",
-    "tecnologias": [
-      "Python",
-      "Pandas",
-      "Streamlit",
-      "Plotly"
-    ],
-    "repositorio": "",
-    "origem": "externo",
-    "destaque": true
   },
   {
     "id": "portfolio-estagio-tjpr",
