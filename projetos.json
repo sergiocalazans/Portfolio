@@ -1,218 +1,106 @@
 [
   {
-    "id": 1,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Tabela Periódica Web",
-    "descricao": "Aplicação web que renderiza a Tabela Periódica dos Elementos.",
-    "link": "https://github.com/sergiocalazans/tabela-periodica",
-    "img": "tabela-periodica.png",
-    "arquivo": "./img/banners/tabela-periodica.png"
+    "id": "jogo-damas",
+    "categoria": "academico",
+    "titulo": "Jogo de Damas",
+    "descricao": "Jogo de Damas feito em Java com persistência de objetos, interface gráfica e conceitos avançados de Programação Orientada a Objetos.",
+    "linkRepositorio": "https://github.com/Glaucia05/JogoDamasPOO",
+    "linkAplicacao": "",
+    "arquivo": "./img/banners/jogo-damas.png",
+    "tecnologias": [
+      "Java",
+      "Swing",
+      "Programação Orientada a Objetos"
+    ],
+    "repositorio": "Glaucia05/JogoDamasPOO",
+    "origem": "github-compartilhado",
+    "destaque": true
   },
   {
-    "id": 2,
-    "categoria": "Ciência de Dados",
-    "titulo": "Python para Ciência de Dados - Pandas",
-    "descricao": "Portfólio de Python aplicados à Ciência de Dados, com ênfase especial na biblioteca Pandas.",
-    "link": "https://github.com/sergiocalazans/python-data-science-pandas",
-    "img": "python-data-science-pandas.png",
-    "arquivo": "./img/banners/python-data-science-pandas.png"
+    "id": "karaoke-letter",
+    "categoria": "academico",
+    "titulo": "Karaoke Letter",
+    "descricao": "Jogo rítmico de digitação desenvolvido com p5.js e p5.sound.",
+    "linkRepositorio": "https://github.com/willian14551/karaoke-letter",
+    "linkAplicacao": "",
+    "arquivo": "./img/banners/karaoke-letter.png",
+    "tecnologias": [
+      "JavaScript",
+      "p5.js",
+      "p5.sound"
+    ],
+    "repositorio": "willian14551/karaoke-letter",
+    "origem": "github-compartilhado",
+    "destaque": false
   },
   {
-    "id": 3,
-    "categoria": "Ciência de Dados",
-    "titulo": "Python para Ciência de Dados - Numpy",
-    "descricao": "Portfólio de Python aplicados à Ciência de Dados, com ênfase especial na biblioteca NumPy.",
-    "link": "https://github.com/sergiocalazans/python-data-science-numpy",
-    "img": "python-data-science-numpy.png",
-    "arquivo": "./img/banners/python-data-science-numpy.png"
-  },
-  {
-    "id": 4,
-    "categoria": "Ciência de Dados",
-    "titulo": "Tech Sales Analytics",
-    "descricao": "Pipeline de Análise de Dados e ETL voltado para o setor de varejo de tecnologia.",
-    "link": "https://github.com/sergiocalazans/tech-sales-analytics",
-    "img": "tech-sales-analytics.png",
-    "arquivo": "./img/banners/tech-sales-analytics.png"
-  },
-  {
-    "id": 5,
-    "categoria": "Acadêmico",
-    "titulo": "Multi-Client Server ESP32",
-    "descricao": "Sistema de comunicação em rede com clientes ESP32 e Python utilizando os protocolos TCP e UDP.",
-    "link": "https://github.com/sergiocalazans/multi-client-server-esp32",
-    "img": "multi-client-server-esp32.png",
-    "arquivo": "./img/banners/multi-client-server-esp32.png"
-  },
-  {
-    "id": 6,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Calculadora Web",
-    "descricao": "Calculadora interativa desenvolvida com tecnologias web fundamentais (HTML5, CSS3 e JavaScript).",
-    "link": "https://github.com/sergiocalazans/calculadora-web",
-    "img": "calculadora-web.png",
-    "arquivo": "./img/banners/calculadora-web.png"
-  },
-  {
-    "id": 7,
-    "categoria": "Acadêmico",
-    "titulo": "Data Food Management System",
-    "descricao": "Sistema de gerenciamento e indexação de dados nutricionais desenvolvido em C.",
-    "link": "https://github.com/sergiocalazans/data-food-management-system",
-    "img": "data-food-system.png",
-    "arquivo": "./img/banners/data-food-system.png"
-  },
-  {
-    "id": 8,
-    "categoria": "Acadêmico",
-    "titulo": "Conversor de Temperatura",
-    "descricao": "Sistema de conversão de escalas térmicas (Celsius e Fahrenheit) desenvolvido em Java.",
-    "link": "https://github.com/sergiocalazans/conversor-temperatura-java",
-    "img": "conversor-temperatura.png",
-    "arquivo": "./img/banners/conversor-temperatura.png"
-  },
-  {
-    "id": 9,
-    "categoria": "Ciência de Dados",
-    "titulo": "Dashboard de Análise de Salários na Área de Dados",
-    "descricao": "Dashboard interativo para a análise de dados salariais na área de dados.",
-    "link": "https://dashboard-salario-area-de-dados.streamlit.app/",
-    "img": "dashboard-area-dados.png",
-    "arquivo": "./img/banners/dashboard-area-dados.png"
-  },
-  {
-    "id": 10,
-    "categoria": "Ciência de Dados",
-    "titulo": "Mini Projeto de Análise de Dados",
-    "descricao": "Projeto que realiza uma análise de dados abrangente de uma empresa, focando em suas finanças e operações. ",
-    "link": "https://github.com/sergiocalazans/mini-projeto-analise-dados",
-    "img": "mini-projeto-analise-de-dados.png",
-    "arquivo": "./img/banners/mini-projeto-analise-de-dados.png"
-  },
-  {
-    "id": 11,
-    "categoria": "Acadêmico",
-    "titulo": "Jogo da Tabela Verdade",
-    "descricao": "Jogo para testar conhecimentos sobre Tabela Verdade.",
-    "link": "https://github.com/sergiocalazans/jogo-tabela-verdade",
-    "img": "jogo-tabela-verdade.png",
-    "arquivo": "./img/banners/jogo-tabela-verdade.png"
-  },
-  {
-    "id": 12,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Dashboard Redes Sociais",
-    "descricao": "Projeto de Análise de Dados e Visualização Web que apresenta relatórios interativos sobre o uso de redes sociais no mundo e em uma comunidade escolar específica.",
-    "link": "https://github.com/sergiocalazans/dashboard-analise-de-dados-js",
-    "img": "dashboard-redes-sociais.png",
-    "arquivo": "./img/banners/dashboard-redes-sociais.png"
-  },
-  {
-    "id": 13,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Consumindo Dados de API",
-    "descricao": "Projeto desenvolvido no curso JavaScript: consumindo e tratando dados de uma API da plataforma Alura.",
-    "link": "https://github.com/sergiocalazans/js-consumindo-dados-api",
-    "img": "formulario-cadastro.png",
-    "arquivo": "./img/banners/formulario-cadastro.png"
-  },
-  {
-    "id": 14,
-    "categoria": "Acadêmico",
-    "titulo": "Plantinha Pomposa",
-    "descricao": "Aplicativo multimídia que aborda temáticas ecológicas e sustentáveis num quiz interativo.",
-    "link": "https://github.com/sergiocalazans/plantinha-pomposa",
-    "img": "plantinha-pomposa.jpg",
-    "arquivo": "./img/banners/plantinha-pomposa.png"
-  },
-  {
-    "id": 15,
-    "categoria": "Acadêmico",
-    "titulo": "Jornal Pomposo",
-    "descricao": "Website para divulgar conteúdos sobre meio ambiente, ecologia, consumo consciente e boas práticas sustentáveis.",
-    "link": "https://github.com/sergiocalazans/jornal-pomposo",
-    "img": "jornal-pomposo.png",
-    "arquivo": "./img/banners/jornal-pomposo.png"
-  },
-  {
-    "id": 16,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Conversor de Moeda - América Latina",
-    "descricao": "Conversor de Moeda do Real para uma moeda latina-americana.",
-    "link": "https://conversor-de-moedas-america-latina.vercel.app/",
-    "img": "conversor-de-moedas.png",
-    "arquivo": "./img/banners/conversor-de-moedas.png"
-  },
-  {
-    "id": 17,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Gerador de Senhas Web",
-    "descricao": "Gerador de senhas fracas, médias e fortes.",
-    "link": "https://gerador-de-senha-inky.vercel.app/",
-    "img": "gerador-de-senha.png",
-    "arquivo": "./img/banners/gerador-de-senha.png"
-  },
-  {
-    "id": 18,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Sorteador de Números Web",
-    "descricao": "Sistema de sortear números.",
-    "link": "https://sorteador-numeros-six.vercel.app/",
-    "img": "sorteador-numeros.png",
-    "arquivo": "./img/banners/sorteador-numeros.png"
-  },
-  {
-    "id": 19,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Organo App",
-    "descricao": "React App para criar cards dos colaboradores de sua equipe ou empresa.",
-    "link": "https://react-app-organo-6vmy6ixpx-gunga16s-projects.vercel.app/",
-    "img": "react-app.png",
-    "arquivo": "./img/banners/react-app.png"
-  },
-  {
-    "id": 20,
-    "categoria": "Desenvolvimento Web",
-    "titulo": "Alura Books",
-    "descricao": "Projeto desenvolvido no curso HTML e CSS: responsividade com mobile-first da plataforma Alura.",
-    "link": "https://github.com/sergiocalazans/alura-books",
-    "img": "alura-books.png",
-    "arquivo": "./img/banners/alura-books.png"
-  },
-  {
-    "id": 21,
-    "categoria": "Banco de Dados",
-    "titulo": "Sistema de Gestão Acadêmica",
-    "descricao": "Sistema de banco de dados relacional para gerenciamento de instituições de ensino superior.",
-    "link": "https://github.com/sergiocalazans/db-academic-system",
-    "img": "banco-de-dados.png",
-    "arquivo": "./img/banners/banco-de-dados.png"
-  },
-  {
-    "id": 22,
-    "categoria": "Profissional",
-    "titulo": "Portfólio de Projetos - Estágio em Automação e Análise de Dados",
-    "descricao": "Apresentação de slides com as atividades, projetos de inovação e implementações desenvolvidas durante o estágio em Automação e Análise de Dados no Tribunal de Justiça do Estado do Paraná (TJPR).",
-    "link": "https://canva.link/upj7t6fcyypnv1a",
-    "img": "portfolio-projetos-tjpr.png",
-    "arquivo": "./img/banners/portfolio-projetos-tjpr.png"
-  },
-  {
-    "id": 23,
-    "categoria": "Acadêmico",
+    "id": "esp32-weather-station",
+    "categoria": "academico",
     "titulo": "ESP32 Weather Station",
-    "descricao": "O projeto de uma estação meteorológica inteligente utilizando o microcontrolador ESP32, com o objetivo de monitorar as condições climáticas de Curitiba em tempo real. Criado no simulador Wokwi.",
-    "link": "https://wokwi.com/projects/430791259189911553",
-    "img": "esp32-wokwi.png",
-    "arquivo": "./img/banners/esp32-wokwi.png"
+    "descricao": "Estação meteorológica inteligente utilizando o microcontrolador ESP32 para monitorar condições climáticas.",
+    "linkRepositorio": "",
+    "linkAplicacao": "https://wokwi.com/projects/430791259189911553",
+    "arquivo": "./img/banners/esp32-wokwi.png",
+    "tecnologias": [
+      "ESP32",
+      "C++",
+      "Wokwi",
+      "IoT"
+    ],
+    "repositorio": "",
+    "origem": "externo",
+    "destaque": false
   },
   {
-    "id": 24,
-    "categoria": "Ciência de Dados",
-    "titulo": "Portfólio Fundamentos Python",
-    "descricao": "Coleção de exercícios, scripts e pequenos projetos focados no domínio dos fundamentos da linguagem Python.",
-    "link": "https://github.com/sergiocalazans/portfolio-python-fundamentals",
-    "img": "portfolio-python.png",
-    "arquivo": "./img/banners/portfolio-python.png"
+    "id": "repositorios-academicos",
+    "categoria": "academico",
+    "titulo": "Repositórios Acadêmicos",
+    "descricao": "Lista dos meus repositórios das disciplinas cursadas no Bacharelado em Ciência da Computação da PUCPR.",
+    "linkRepositorio": "",
+    "linkAplicacao": "https://github.com/stars/sergiocalazans/lists/ci%C3%AAncia-da-computa%C3%A7%C3%A3o",
+    "arquivo": "./img/banners/academico.jpg",
+    "tecnologias": [
+      "GitHub",
+      "Ciência da Computação"
+    ],
+    "repositorio": "",
+    "origem": "externo",
+    "destaque": false
+  },
+  {
+    "id": "dashboard-salarios-dados",
+    "categoria": "analise-de-dados",
+    "titulo": "Dashboard de Análise de Salários na Área de Dados",
+    "descricao": "Dashboard interativo para análise de dados salariais na área de dados.",
+    "linkRepositorio": "",
+    "linkAplicacao": "https://dashboard-salario-area-de-dados.streamlit.app/",
+    "arquivo": "./img/banners/dashboard-area-dados.png",
+    "tecnologias": [
+      "Python",
+      "Pandas",
+      "Streamlit",
+      "Plotly"
+    ],
+    "repositorio": "",
+    "origem": "externo",
+    "destaque": true
+  },
+  {
+    "id": "portfolio-estagio-tjpr",
+    "categoria": "profissional",
+    "titulo": "Portfólio de Projetos do Estágio",
+    "descricao": "Apresentação das atividades, automações e projetos desenvolvidos durante o estágio em Automação e Análise de Dados no TJPR.",
+    "linkRepositorio": "",
+    "linkAplicacao": "https://canva.link/upj7t6fcyypnv1a",
+    "arquivo": "./img/banners/portfolio-projetos-tjpr.png",
+    "tecnologias": [
+      "Power Automate",
+      "Office Scripts",
+      "Excel",
+      "Análise de Dados"
+    ],
+    "repositorio": "",
+    "origem": "externo",
+    "destaque": true
   }
 ]
