@@ -10,15 +10,16 @@
 
 /* Estilos para o link de texto 'Clique para abrir ->' dentro do card do projeto. */
 .link-projeto {
-  display: inline-block; /* Permite que margin-top funcione e não ocupe a linha inteira. */
-  margin-top: 1rem; /* Adiciona um espaço acima do link. */
-  padding: 0.5rem 0; /* Aumenta a área de clique vertical. */
-  color: var(--secundaria); /* Usa a cor secundária do tema. */
-  font-weight: bold; /* Deixa o texto em negrito. */
-  text-decoration: none; /* Remove o sublinhado. */
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem 0;
+  color: var(--secundaria);
+  font-weight: bold;
+  text-decoration: none;
   transition:
     color 0.3s ease,
-    transform 0.3s ease; /* Anima a mudança de cor e a transformação. */
+    transform 0.3s ease;
 }
 
 /* Efeito hover para o link do projeto. */
