@@ -42,7 +42,7 @@
 /* Caixa de texto da seção 'Sobre'. */
 .sobre-caixa {
   padding: 2rem; /* Adiciona preenchimento interno. */
-  max-width: 600px; /* Define uma largura máxima para a caixa. */
+  max-width: 1000px; /* Define uma largura máxima para a caixa. */
   margin: 0 auto; /* Centraliza a caixa horizontalmente. */
   border-radius: 16px; /* Arredonda as bordas. */
   border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
