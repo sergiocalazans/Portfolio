@@ -106,7 +106,7 @@
 }
 
 /* Efeito hover para o card de projeto. */
-.projetos-card:hover {
+.projetos-card:hover, .tecnologia-caixa:hover {
   box-shadow: 0 10px 20px var(--sombra); /* Adiciona uma sombra elevada. */
   transform: translateY(-10px) scale(1.03); /* Move o card para cima e aumenta um pouco seu tamanho. */
 }
@@ -119,7 +119,7 @@
 
 /* Imagem dentro do card do projeto. */
 .projetos-imagem {
-  height: 200px; /* Altura fixa para a imagem. */
+  height: 250px; /* Altura fixa para a imagem. */
   width: 100%; /* Largura total do card. */
   object-fit: cover; /* Garante que a imagem cubra a área sem distorcer. */
 }
