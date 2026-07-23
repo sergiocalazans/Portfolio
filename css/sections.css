@@ -160,3 +160,25 @@
 
     background: #000;
 }
+
+/* ======================================================= */
+/* SEÇÃO GITHUB STATS                                      */
+/* ======================================================= */
+
+.github-stats {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.github-stats-titulo {
+  color: var(--claro);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.github-stats-descricao {
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  color: rgba(226, 232, 240, 0.8);
+  line-height: 1.6;
+}

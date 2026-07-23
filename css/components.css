@@ -210,3 +210,74 @@
 .icone-claro {
   filter: invert(1);
 }
+
+/* ======================================================= */
+/* CARDS DO GITHUB STATS                                   */
+/* ======================================================= */
+
+.github-stats-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.github-stats-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / -1;
+  padding: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--vidro);
+  border-radius: 16px;
+  background: var(--filtro);
+  backdrop-filter: blur(10px);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.github-stats-card-menor {
+  grid-column: auto;
+}
+
+.github-stats-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--secundaria);
+  box-shadow: 0 10px 25px var(--sombra);
+}
+
+.github-stats-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.github-stats-botao {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.9rem 1.5rem;
+  color: var(--claro);
+  font-weight: bold;
+  border: 1px solid var(--vidro);
+  border-radius: 8px;
+  background: linear-gradient(
+    45deg,
+    var(--primaria),
+    var(--secundaria)
+  );
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.github-stats-botao:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px var(--sombra);
+}
