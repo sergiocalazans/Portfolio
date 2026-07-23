@@ -207,6 +207,24 @@
 
         border-radius: 12px;
     }
+
+    .github-stats {
+        padding: 4rem 1.5rem;
+    }
+
+    .github-stats-titulo {
+        font-size: 1.8rem;
+    }
+
+    .github-stats-container {
+        grid-template-columns: 1fr;
+    }
+
+    .github-stats-card,
+    .github-stats-card-menor {
+        grid-column: 1;
+        padding: 0.5rem;
+    }
 }
 
 /* Estilos para telas muito pequenas (celulares em modo retrato). */
@@ -251,6 +269,18 @@
 
     .video-frame iframe {
 
+        border-radius: 12px;
+    }
+
+    .github-stats {
+        padding: 3rem 1rem;
+    }
+
+    .github-stats-descricao {
+        font-size: 0.95rem;
+    }
+
+    .github-stats-card {
         border-radius: 12px;
     }
 }
