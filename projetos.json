@@ -34,24 +34,6 @@
     "destaque": false
   },
   {
-    "id": "esp32-weather-station",
-    "categoria": "academic",
-    "titulo": "ESP32 Weather Station",
-    "descricao": "Estação meteorológica inteligente utilizando o microcontrolador ESP32 para monitorar condições climáticas.",
-    "linkRepositorio": "",
-    "linkAplicacao": "https://wokwi.com/projects/430791259189911553",
-    "arquivo": "./img/banners/esp32-wokwi.png",
-    "tecnologias": [
-      "ESP32",
-      "C++",
-      "Wokwi",
-      "IoT"
-    ],
-    "repositorio": "",
-    "origem": "externo",
-    "destaque": false
-  },
-  {
     "id": "repositorios-academicos",
     "categoria": "academic",
     "titulo": "Repositórios Acadêmicos",

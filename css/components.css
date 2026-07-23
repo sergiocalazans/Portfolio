@@ -42,7 +42,7 @@
 /* Caixa de texto da seção 'Sobre'. */
 .sobre-caixa {
   padding: 2rem; /* Adiciona preenchimento interno. */
-  max-width: 600px; /* Define uma largura máxima para a caixa. */
+  max-width: 1000px; /* Define uma largura máxima para a caixa. */
   margin: 0 auto; /* Centraliza a caixa horizontalmente. */
   border-radius: 16px; /* Arredonda as bordas. */
   border: 1px solid var(--vidro); /* Borda com efeito de vidro. */
@@ -106,7 +106,7 @@
 }
 
 /* Efeito hover para o card de projeto. */
-.projetos-card:hover {
+.projetos-card:hover, .tecnologia-caixa:hover {
   box-shadow: 0 10px 20px var(--sombra); /* Adiciona uma sombra elevada. */
   transform: translateY(-10px) scale(1.03); /* Move o card para cima e aumenta um pouco seu tamanho. */
 }
@@ -119,7 +119,7 @@
 
 /* Imagem dentro do card do projeto. */
 .projetos-imagem {
-  height: 200px; /* Altura fixa para a imagem. */
+  height: 250px; /* Altura fixa para a imagem. */
   width: 100%; /* Largura total do card. */
   object-fit: cover; /* Garante que a imagem cubra a área sem distorcer. */
 }
