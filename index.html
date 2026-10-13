@@ -1,448 +1,613 @@
 <!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Sérgio Calazans, estudante de Ciência da Computação, com projetos em desenvolvimento web, dados, automação e banco de dados."
+    />
+    <meta name="author" content="Sérgio Calazans" />
+    <link rel="icon" href="./img/icons/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfólio - Sérgio Calazans</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Portfólio de Sérgio Calazans, estudante de Ciência da Computação, com projetos em desenvolvimento web, dados, automação e banco de dados.">
-  <meta name="author" content="Sérgio Calazans">
-  <link rel="icon" href="./img/icons/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Portfólio - Sérgio Calazans</title>
-</head>
+  <body>
+    <div class="efeitos-fundo"></div>
 
-<body>
-  <div class="efeitos-fundo"></div>
+    <nav class="navegacao" id="navegacao">
+      <a href="#inicio" class="nav-logo">Portfólio</a>
+      <ul class="menu" id="menu">
+        <li>
+          <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+          <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#tecnologias" class="menu-link">Tecnologias</a>
+        </li>
+        <li>
+          <a href="#github-stats" class="menu-link">GitHub Stats</a>
+        </li>
+        <li>
+          <a href="#projetos" class="menu-link">Meus Projetos</a>
+        </li>
+        <li>
+          <a href="#contato" class="menu-link">Contato</a>
+        </li>
+      </ul>
+      <button
+        id="btn-mobile"
+        aria-label="Abrir Menu"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      >
+        <span class="hamburguer"></span>
+      </button>
+    </nav>
 
-  <nav class="navegacao" id="navegacao">
-    <a href="#inicio" class="nav-logo">Portfólio</a>
-    <ul class="menu" id="menu">
-      <li>
-        <a href="#inicio" class="menu-link">Início</a>
-      </li>
-      <li>
-        <a href="#sobre" class="menu-link">Sobre</a>
-      </li>
-      <li>
-        <a href="#tecnologias" class="menu-link">Tecnologias</a>
-      </li>
-      <li>
-        <a href="#github-stats" class="menu-link">GitHub Stats</a>
-      </li>
-      <li>
-        <a href="#projetos" class="menu-link">Meus Projetos</a>
-      </li>
-      <li>
-        <a href="#contato" class="menu-link">Contato</a>
-      </li>
-    </ul>
-    <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-      <span class="hamburguer"></span>
-    </button>
-  </nav>
-
-  <main id="inicio" class="cabecalho">
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><img
-        src="https://media.licdn.com/dms/image/v2/D4D03AQEjZ4nX0fbf1w/profile-displayphoto-crop_800_800/B4DZkwWgRRJIAI-/0/1757452830567?e=1792627200&v=beta&t=FZCoSvEVOxmypd36_r2X-MOcaC9NF_8sBcw_CJT2Mpc"
-        alt="Foto de perfil" class="foto-perfil" /></a>
-    <h1>Sérgio Calazans</h1>
-    <p class="cabecalho-sub-titulo">
-      Estudante de Ciência da Computação e Programador
-    </p>
-    <div class="icons fade-in delay-2">
-      <a href="https://github.com/sergiocalazans" target="_blank" rel="noopener noreferrer">
-        <img src="./img/icons/github.png" alt="GitHub" />
-      </a>
-      <a href="https://www.linkedin.com/in/sergiocalazans/" target="_blank" rel="noopener noreferrer">
-        <img src="./img/icons/linkedin.png" alt="LinkedIn" />
-      </a>
-    </div>
-  </main>
-
-  <section id="sobre" class="sobre">
-    <div class="sobre-caixa">
-
-      <h2 class="sobre-titulo">Sobre Mim</h2>
-
-      <p class="sobre-texto">
-        Conheça um pouco da minha trajetória, experiências, projetos e objetivos profissionais.
+    <main id="inicio" class="cabecalho">
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><img
+          src="./img/foto.jpeg"
+          alt="Foto de perfil"
+          class="foto-perfil"
+      /></a>
+      <h1>Sérgio Calazans</h1>
+      <p class="cabecalho-sub-titulo">
+        Estudante de Ciência da Computação e Programador
       </p>
+      <div class="icons fade-in delay-2">
+        <a
+          href="https://github.com/sergiocalazans"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./img/icons/github.png" alt="GitHub" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sergiocalazans/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./img/icons/linkedin.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </main>
 
-      <div class="video-container">
+    <section id="sobre" class="sobre">
+      <div class="sobre-caixa">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
 
-        <div class="video-frame">
+        <p class="sobre-texto">
+          Conheça um pouco da minha trajetória, experiências, projetos e
+          objetivos profissionais.
+        </p>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/AcFVwo0BZoE?si=snuaPsZJD90xNOvi"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-container">
+          <div class="video-frame">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/AcFVwo0BZoE?si=snuaPsZJD90xNOvi"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="tecnologias" class="tecnologias">
+      <h2 class="tecnologias-titulo">Tecnologias</h2>
+
+      <h3 class="tecnologias-subtitulo">Linguagens</h3>
+      <div class="tecnologias-itens">
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+            alt="Python"
+          />
+          <p class="sobre-texto">Python</p>
         </div>
 
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+            alt="Java"
+          />
+          <p class="sobre-texto">Java</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            alt="JavaScript"
+          />
+          <p class="sobre-texto">JavaScript</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            alt="TypeScript"
+          />
+          <p class="sobre-texto">TypeScript</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+            alt="PHP"
+          />
+          <p class="sobre-texto">PHP</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+            alt="C"
+          />
+          <p class="sobre-texto">C</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+            alt="C++"
+          />
+          <p class="sobre-texto">C++</p>
+        </div>
       </div>
 
-    </div>
-  </section>
+      <h3 class="tecnologias-subtitulo">Desenvolvimento Web</h3>
+      <div class="tecnologias-itens">
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+            alt="HTML5"
+          />
+          <p class="sobre-texto">HTML5</p>
+        </div>
 
-  <section id="tecnologias" class="tecnologias">
-    <h2 class="tecnologias-titulo">Tecnologias</h2>
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+            alt="CSS3"
+          />
+          <p class="sobre-texto">CSS3</p>
+        </div>
 
-    <h3 class="tecnologias-subtitulo">Linguagens</h3>
-    <div class="tecnologias-itens">
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
-        <p class="sobre-texto">Python</p>
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            alt="React"
+          />
+          <p class="sobre-texto">React</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+            alt="Flask"
+          />
+          <p class="sobre-texto">Flask</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+            alt="Vite.js"
+          />
+          <p class="sobre-texto">Vite.js</p>
+        </div>
       </div>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" />
-        <p class="sobre-texto">Java</p>
+      <h3 class="tecnologias-subtitulo">Dados e Banco de Dados</h3>
+      <div class="tecnologias-itens">
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+            alt="MySQL"
+          />
+          <p class="sobre-texto">MySQL</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg"
+            alt="SQLAlchemy"
+          />
+          <p class="sobre-texto">SQLAlchemy</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"
+            alt="Supabase"
+          />
+          <p class="sobre-texto">Supabase</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+            alt="Pandas"
+          />
+          <p class="sobre-texto">Pandas</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+            alt="NumPy"
+          />
+          <p class="sobre-texto">NumPy</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg"
+            alt="Plotly"
+          />
+          <p class="sobre-texto">Plotly</p>
+        </div>
       </div>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-          alt="JavaScript" />
-        <p class="sobre-texto">JavaScript</p>
+      <h3 class="tecnologias-subtitulo">DevOps e Ferramentas</h3>
+      <div class="tecnologias-itens">
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+            alt="Git"
+          />
+          <p class="sobre-texto">Git</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+            alt="GitHub"
+            class="icone-claro"
+          />
+          <p class="sobre-texto">GitHub</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+            alt="Docker"
+          />
+          <p class="sobre-texto">Docker</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+            alt="VS Code"
+          />
+          <p class="sobre-texto">VS Code</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/railway/railway-original.svg"
+            alt="Railway"
+            class="icone-claro"
+          />
+          <p class="sobre-texto">Railway</p>
+        </div>
       </div>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-          alt="TypeScript" />
-        <p class="sobre-texto">TypeScript</p>
+      <h3 class="tecnologias-subtitulo">Stack deste Portfólio</h3>
+      <div class="tecnologias-itens">
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+            alt="HTML5"
+          />
+          <p class="sobre-texto">HTML5</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+            alt="CSS3"
+          />
+          <p class="sobre-texto">CSS3</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            alt="JavaScript"
+          />
+          <p class="sobre-texto">JavaScript</p>
+        </div>
+
+        <div class="tecnologia-caixa">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg"
+            alt="JSON"
+          />
+          <p class="sobre-texto">JSON</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="github-stats" class="github-stats">
+      <h2 class="github-stats-titulo">GitHub Stats</h2>
+
+      <p class="github-stats-descricao">
+        Estatísticas dos meus projetos e contribuições públicas no GitHub.
+      </p>
+
+      <div class="github-stats-container">
+        <div
+          class="github-stats-card"
+          aria-label="Acessar o perfil de Sérgio Calazans no GitHub"
+        >
+          <img
+            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sergiocalazans&theme=github_dark"
+            alt="Resumo do perfil de Sérgio Calazans no GitHub"
+            loading="lazy"
+          />
+        </div>
+
+        <div
+          class="github-stats-card github-stats-card-menor"
+          aria-label="Acessar as estatísticas de Sérgio Calazans no GitHub"
+        >
+          <img
+            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sergiocalazans&theme=github_dark"
+            alt="Estatísticas de Sérgio Calazans no GitHub"
+            loading="lazy"
+          />
+        </div>
+
+        <div
+          class="github-stats-card github-stats-card-menor"
+          aria-label="Acessar as linguagens utilizadas por Sérgio Calazans no GitHub"
+        >
+          <img
+            src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sergiocalazans&theme=github_dark"
+            alt="Linguagens por repositório de Sérgio Calazans"
+            loading="lazy"
+          />
+        </div>
       </div>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" />
-        <p class="sobre-texto">PHP</p>
+      <a
+        href="https://github.com/sergiocalazans"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="github-stats-botao"
+      >
+        Acessar perfil no GitHub →
+      </a>
+    </section>
+
+    <section id="projetos" class="projetos">
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+
+      <div class="projetos-caixa">
+        <div class="projetos-card">
+          <a href="#projetos-academicos" class="link-categoria">
+            <img
+              src="./img/banners/academico.jpg"
+              alt="Projetos Acadêmicos"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Acadêmicos</h3>
+
+              <p class="p-projetos">
+                Projetos desenvolvidos durante disciplinas, trabalhos e
+                atividades acadêmicas.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projetos-card">
+          <a href="#projetos-analise-de-dados" class="link-categoria">
+            <img
+              src="./img/banners/analise-de-dados.jpg"
+              alt="Projetos de Análise de Dados"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Análise de Dados</h3>
+
+              <p class="p-projetos">
+                Projetos de tratamento, exploração, visualização e interpretação
+                de dados.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projetos-card">
+          <a href="#projetos-automacao-web-rpa" class="link-categoria">
+            <img
+              src="./img/banners/automacao.png"
+              alt="Projetos de Automação Web e RPA"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Automação Web e RPA</h3>
+
+              <p class="p-projetos">
+                Automações de tarefas e processos utilizando Python, Selenium,
+                PyAutoGUI, Power Automate e outras ferramentas.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projetos-card">
+          <a href="#projetos-banco-de-dados" class="link-categoria">
+            <img
+              src="./img/banners/banco-de-dados.png"
+              alt="Projetos de Banco de Dados"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Banco de Dados</h3>
+
+              <p class="p-projetos">
+                Projetos de modelagem, consultas SQL e integração de bancos de
+                dados com aplicações.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projetos-card">
+          <a href="#projetos-ciencia-de-dados" class="link-categoria">
+            <img
+              src="./img/banners/ciencia-de-dados.jpg"
+              alt="Projetos de Ciência de Dados"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Ciência de Dados</h3>
+
+              <p class="p-projetos">
+                Projetos de machine learning, processamento de dados e modelos
+                preditivos.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projetos-card">
+          <a href="#projetos-desenvolvimento-web" class="link-categoria">
+            <img
+              src="./img/banners/pessoais.jpg"
+              alt="Projetos de Desenvolvimento Web"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Desenvolvimento Web</h3>
+
+              <p class="p-projetos">
+                Aplicações e páginas web desenvolvidas com tecnologias de
+                frontend e backend.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projetos-card">
+          <a href="#projetos-profissionais" class="link-categoria">
+            <img
+              src="./img/banners/profissional.jpg"
+              alt="Projetos Profissionais"
+              class="projetos-imagem"
+            />
+
+            <div class="caixa-textos-projetos">
+              <h3 class="info-projetos">Profissionais</h3>
+
+              <p class="p-projetos">
+                Projetos e soluções desenvolvidos durante experiências
+                profissionais.
+              </p>
+            </div>
+          </a>
+        </div>
       </div>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" />
-        <p class="sobre-texto">C</p>
-      </div>
+    <section id="projetos-academicos" class="projetos categoria-projetos">
+      <h2 class="projetos-titulo">Acadêmicos</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
-          alt="C++" />
-        <p class="sobre-texto">C++</p>
-      </div>
-    </div>
+    <section id="projetos-analise-de-dados" class="projetos categoria-projetos">
+      <h2 class="projetos-titulo">Análise de Dados</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-    <h3 class="tecnologias-subtitulo">Desenvolvimento Web</h3>
-    <div class="tecnologias-itens">
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
-        <p class="sobre-texto">HTML5</p>
-      </div>
+    <section
+      id="projetos-automacao-web-rpa"
+      class="projetos categoria-projetos"
+    >
+      <h2 class="projetos-titulo">Automação Web e RPA</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
-        <p class="sobre-texto">CSS3</p>
-      </div>
+    <section id="projetos-banco-de-dados" class="projetos categoria-projetos">
+      <h2 class="projetos-titulo">Banco de Dados</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" />
-        <p class="sobre-texto">React</p>
-      </div>
+    <section id="projetos-ciencia-de-dados" class="projetos categoria-projetos">
+      <h2 class="projetos-titulo">Ciência de Dados</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask" />
-        <p class="sobre-texto">Flask</p>
-      </div>
+    <section
+      id="projetos-desenvolvimento-web"
+      class="projetos categoria-projetos"
+    >
+      <h2 class="projetos-titulo">Desenvolvimento Web</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite.js" />
-        <p class="sobre-texto">Vite.js</p>
-      </div>
-    </div>
+    <section id="projetos-profissionais" class="projetos categoria-projetos">
+      <h2 class="projetos-titulo">Profissionais</h2>
+      <div class="projetos-caixa"></div>
+    </section>
 
-    <h3 class="tecnologias-subtitulo">Dados e Banco de Dados</h3>
-    <div class="tecnologias-itens">
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" />
-        <p class="sobre-texto">MySQL</p>
-      </div>
+    <section id="contato" class="contato">
+      <h2 class="contato-titulo">Entre em Contato</h2>
+      <form
+        class="formulario-contato"
+        id="formulario"
+        onsubmit="enviarMsg(event)"
+      >
+        <div class="grupo-form">
+          <input class="campo-form" placeholder="Nome" id="nome" required />
+        </div>
+        <div class="grupo-form">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua mensagem"
+            rows="4"
+            id="mensagem"
+            required
+          ></textarea>
+        </div>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg"
-          alt="SQLAlchemy" />
-        <p class="sobre-texto">SQLAlchemy</p>
-      </div>
+        <button type="submit" class="botao-form">Enviar WhatsApp</button>
+      </form>
+    </section>
 
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"
-          alt="Supabase" />
-        <p class="sobre-texto">Supabase</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas" />
-        <p class="sobre-texto">Pandas</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy" />
-        <p class="sobre-texto">NumPy</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" alt="Plotly" />
-        <p class="sobre-texto">Plotly</p>
-      </div>
-    </div>
-
-    <h3 class="tecnologias-subtitulo">DevOps e Ferramentas</h3>
-    <div class="tecnologias-itens">
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
-        <p class="sobre-texto">Git</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub"
-          class="icone-claro" />
-        <p class="sobre-texto">GitHub</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" />
-        <p class="sobre-texto">Docker</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" />
-        <p class="sobre-texto">VS Code</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/railway/railway-original.svg" alt="Railway"
-          class="icone-claro" />
-        <p class="sobre-texto">Railway</p>
-      </div>
-    </div>
-
-    <h3 class="tecnologias-subtitulo">Stack deste Portfólio</h3>
-    <div class="tecnologias-itens">
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
-        <p class="sobre-texto">HTML5</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
-        <p class="sobre-texto">CSS3</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-          alt="JavaScript" />
-        <p class="sobre-texto">JavaScript</p>
-      </div>
-
-      <div class="tecnologia-caixa">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" alt="JSON" />
-        <p class="sobre-texto">JSON</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="github-stats" class="github-stats">
-    <h2 class="github-stats-titulo">GitHub Stats</h2>
-
-    <p class="github-stats-descricao">
-      Estatísticas dos meus projetos e contribuições públicas no GitHub.
-    </p>
-
-    <div class="github-stats-container">
-      <div class="github-stats-card" aria-label="Acessar o perfil de Sérgio Calazans no GitHub">
-        <img
-          src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sergiocalazans&theme=github_dark"
-          alt="Resumo do perfil de Sérgio Calazans no GitHub" loading="lazy" />
-      </div>
-
-      <div class="github-stats-card github-stats-card-menor"
-        aria-label="Acessar as estatísticas de Sérgio Calazans no GitHub">
-        <img
-          src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sergiocalazans&theme=github_dark"
-          alt="Estatísticas de Sérgio Calazans no GitHub" loading="lazy" />
-      </div>
-
-      <div class="github-stats-card github-stats-card-menor"
-        aria-label="Acessar as linguagens utilizadas por Sérgio Calazans no GitHub">
-        <img
-          src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sergiocalazans&theme=github_dark"
-          alt="Linguagens por repositório de Sérgio Calazans" loading="lazy" />
-      </div>
-
-    </div>
-
-    <a href="https://github.com/sergiocalazans" target="_blank" rel="noopener noreferrer" class="github-stats-botao">
-      Acessar perfil no GitHub →
-    </a>
-  </section>
-
-  <section id="projetos" class="projetos">
-    <h2 class="projetos-titulo">Meus Projetos</h2>
-
-    <div class="projetos-caixa">
-      <div class="projetos-card">
-        <a href="#projetos-academicos" class="link-categoria">
-          <img src="./img/banners/academico.jpg" alt="Projetos Acadêmicos" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Acadêmicos</h3>
-
-            <p class="p-projetos">
-              Projetos desenvolvidos durante disciplinas, trabalhos e atividades
-              acadêmicas.
-            </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projetos-card">
-        <a href="#projetos-analise-de-dados" class="link-categoria">
-          <img src="./img/banners/analise-de-dados.jpg" alt="Projetos de Análise de Dados" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Análise de Dados</h3>
-
-            <p class="p-projetos">
-              Projetos de tratamento, exploração, visualização e interpretação
-              de dados.
-            </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projetos-card">
-        <a href="#projetos-automacao-web-rpa" class="link-categoria">
-          <img src="./img/banners/automacao.png" alt="Projetos de Automação Web e RPA" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Automação Web e RPA</h3>
-
-            <p class="p-projetos">
-              Automações de tarefas e processos utilizando Python, Selenium,
-              PyAutoGUI, Power Automate e outras ferramentas.
-            </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projetos-card">
-        <a href="#projetos-banco-de-dados" class="link-categoria">
-          <img src="./img/banners/banco-de-dados.png" alt="Projetos de Banco de Dados" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Banco de Dados</h3>
-
-            <p class="p-projetos">
-              Projetos de modelagem, consultas SQL e integração de bancos de
-              dados com aplicações.
-            </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projetos-card">
-        <a href="#projetos-ciencia-de-dados" class="link-categoria">
-          <img src="./img/banners/ciencia-de-dados.jpg" alt="Projetos de Ciência de Dados" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Ciência de Dados</h3>
-
-            <p class="p-projetos">
-              Projetos de machine learning, processamento de dados e modelos
-              preditivos.
-            </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projetos-card">
-        <a href="#projetos-desenvolvimento-web" class="link-categoria">
-          <img src="./img/banners/pessoais.jpg" alt="Projetos de Desenvolvimento Web" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Desenvolvimento Web</h3>
-
-            <p class="p-projetos">
-              Aplicações e páginas web desenvolvidas com tecnologias de frontend
-              e backend.
-            </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projetos-card">
-        <a href="#projetos-profissionais" class="link-categoria">
-          <img src="./img/banners/profissional.jpg" alt="Projetos Profissionais" class="projetos-imagem" />
-
-          <div class="caixa-textos-projetos">
-            <h3 class="info-projetos">Profissionais</h3>
-
-            <p class="p-projetos">
-              Projetos e soluções desenvolvidos durante experiências
-              profissionais.
-            </p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="projetos-academicos" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Acadêmicos</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="projetos-analise-de-dados" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Análise de Dados</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="projetos-automacao-web-rpa" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Automação Web e RPA</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="projetos-banco-de-dados" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Banco de Dados</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="projetos-ciencia-de-dados" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Ciência de Dados</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="projetos-desenvolvimento-web" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Desenvolvimento Web</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="projetos-profissionais" class="projetos categoria-projetos">
-    <h2 class="projetos-titulo">Profissionais</h2>
-    <div class="projetos-caixa"></div>
-  </section>
-
-  <section id="contato" class="contato">
-    <h2 class="contato-titulo">Entre em Contato</h2>
-    <form class="formulario-contato" id="formulario" onsubmit="enviarMsg(event)">
-      <div class="grupo-form">
-        <input class="campo-form" placeholder="Nome" id="nome" required />
-      </div>
-      <div class="grupo-form">
-        <textarea class="campo-form" placeholder="Digite sua mensagem" rows="4" id="mensagem" required></textarea>
-      </div>
-
-      <button type="submit" class="botao-form">Enviar WhatsApp</button>
-    </form>
-  </section>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

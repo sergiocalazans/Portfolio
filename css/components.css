@@ -33,10 +33,11 @@
 .foto-perfil {
   width: 200px; /* Largura da imagem. */
   height: 200px; /* Altura da imagem. */
+  object-fit: cover; /* Recorta a foto sem distorcer as proporções do rosto. */
+  object-position: center 40%; /* Prioriza o rosto e mantém espaço acima da cabeça. */
   box-shadow: 0 0 20px var(--sombra); /* Adiciona uma sombra brilhante. */
   border-radius: 50%; /* Torna a imagem perfeitamente redonda. */
   border: 4px solid var(--vidro); /* Adiciona uma borda com efeito de vidro. */
-  animation: flutuar 5s ease-in-out infinite; /* Aplica a animação de flutuação. */
 }
 
 /* Caixa de texto da seção 'Sobre'. */
